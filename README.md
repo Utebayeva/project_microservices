@@ -20,5 +20,5 @@ An online game store, a regular game service for buying and downloading games, a
   5) Service for working with developer companies
   6) Registration and authorization service
  
-## Microservices diagram:
+## Microservices's diagram:
 ![Image alt](diagram.jpg)
