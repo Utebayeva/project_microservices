@@ -1,11 +1,11 @@
 # Online game store
 ### Group members(IS-1814R):
- \n Karina Utebayeva
- \n Alisher Kuttybai
+ Karina Utebayeva  
+ Alisher Kuttybai  
 
 ### Emails: 
- \n karinautebayeva@gmail.com
- \n alisherkuttybai@gmail.com
+ karinautebayeva@gmail.com  
+ alisherkuttybai@gmail.com  
 
 ## Description of the project:
 An online game store, a regular game service for buying and downloading games, and more. That is, it is similar to Steam Store and Epic Store.
