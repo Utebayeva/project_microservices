@@ -1,9 +1,9 @@
 # Online game store
-## Group members(IS-1814R):
+### Group members(IS-1814R):
  Karina Utebayeva
  Alisher Kuttybai
 
-## Emails: 
+### Emails: 
  karinautebayeva@gmail.com
  alisherkuttybai@gmail.com
 
