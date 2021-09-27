@@ -3,10 +3,7 @@ package com.example.community.controller;
 import com.example.community.entity.Community;
 import com.example.community.service.CommunityService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
@@ -25,5 +22,15 @@ public class CommunityController {
     @GetMapping("/{id}")
     public Community findCommunityById(@PathVariable("id") Long communityId) {
         return communityService.findCommunityById(communityId);
+    }
+
+    @PostMapping("/saveUser")
+    public Community saveCommunity(@RequestBody Community community) {
+        return communityService.saveCommunity(community);
+    }
+
+    @DeleteMapping("/{id}")
+    public Community deleteCommunity(@PathVariable("id") Long communityId) {
+        return communityService.deleteCommunity(communityId);
     }
 }

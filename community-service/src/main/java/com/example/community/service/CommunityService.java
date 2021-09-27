@@ -20,4 +20,13 @@ public class CommunityService {
     public Community findCommunityById(Long communityId) {
         return communityRepository.findCommunityByCommunityId(communityId);
     }
+
+    public Community saveCommunity(Community community) {
+        return communityRepository.save(community);
+    }
+
+
+    public Community deleteCommunity(Long communityId) {
+        return communityRepository.deleteCommunityByCommunityId(communityId);
+    }
 }
