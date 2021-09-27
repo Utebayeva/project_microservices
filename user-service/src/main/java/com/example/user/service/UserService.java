@@ -1,5 +1,6 @@
 package com.example.user.service;
 
+import com.example.user.VO.Community;
 import com.example.user.VO.Game;
 import com.example.user.VO.ResponseTemplate;
 import com.example.user.entity.User;
@@ -41,11 +42,18 @@ public class UserService {
     public ResponseTemplate findUserGames(Long userId) {
         ResponseTemplate rt = new ResponseTemplate();
         User user = userRepository.findUserByUserId(userId);
-
         Game game = restTemplate.getForObject("http://localhost:8082/games/" + user.getGameId(), Game.class);
-
         rt.setUser(user);
         rt.setGame(game);
+        return rt;
+    }
+
+    public ResponseTemplate findUserCommunity(Long userId) {
+        ResponseTemplate rt = new ResponseTemplate();
+        User user = userRepository.findUserByUserId(userId);
+        Community community = restTemplate.getForObject("http://localhost:7072/community/" + user.getCommunityId(), Community.class);
+        rt.setUser(user);
+        rt.setCommunity(community);
         return rt;
     }
 }

@@ -41,4 +41,9 @@ public class UserController {
     public ResponseTemplate findUserGames(@PathVariable("id") Long userId) {
         return userService.findUserGames(userId);
     }
+
+    @GetMapping("/findUserCommunity/{id}")
+    public ResponseTemplate findUserCommunity(@PathVariable("id") Long userId) {
+        return userService.findUserCommunity(userId);
+    }
 }

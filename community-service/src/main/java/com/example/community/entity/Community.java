@@ -19,6 +19,5 @@ public class Community {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long communityId;
     private String name;
-    private Long members;
     private String description;
 }
