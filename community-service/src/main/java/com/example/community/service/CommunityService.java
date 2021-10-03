@@ -2,14 +2,12 @@ package com.example.community.service;
 
 import com.example.community.entity.Community;
 import com.example.community.repository.CommunityRepository;
-import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
 
 @Service
-@Slf4j
 public class CommunityService {
 
     @Autowired
@@ -21,5 +19,14 @@ public class CommunityService {
 
     public Community findCommunityById(Long communityId) {
         return communityRepository.findCommunityByCommunityId(communityId);
+    }
+
+    public Community saveCommunity(Community community) {
+        return communityRepository.save(community);
+    }
+
+
+    public Community deleteCommunity(Long communityId) {
+        return communityRepository.deleteCommunityByCommunityId(communityId);
     }
 }

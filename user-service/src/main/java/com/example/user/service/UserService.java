@@ -2,10 +2,10 @@ package com.example.user.service;
 
 import com.example.user.VO.Community;
 import com.example.user.VO.Game;
+import com.example.user.VO.Log;
 import com.example.user.VO.ResponseTemplate;
 import com.example.user.entity.User;
 import com.example.user.repository.UserRepository;
-import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
@@ -13,7 +13,6 @@ import org.springframework.web.client.RestTemplate;
 import java.util.List;
 
 @Service
-@Slf4j
 public class UserService {
 
     @Autowired
@@ -54,6 +53,15 @@ public class UserService {
         Community community = restTemplate.getForObject("http://localhost:7072/community/" + user.getCommunityId(), Community.class);
         rt.setUser(user);
         rt.setCommunity(community);
+        return rt;
+    }
+
+    public ResponseTemplate findLog(Long userId) {
+        ResponseTemplate rt = new ResponseTemplate();
+        User user = userRepository.findUserByUserId(userId);
+        Log log = restTemplate.getForObject("http://localhost:6062/logs/" + user.getLogId(), Log.class);
+        rt.setUser(user);
+        rt.setLog(log);
         return rt;
     }
 }

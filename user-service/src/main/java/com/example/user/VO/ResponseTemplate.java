@@ -13,4 +13,5 @@ public class ResponseTemplate {
     private User user;
     private Game game;
     private Community community;
+    private Log log;
 }
