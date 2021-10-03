@@ -22,3 +22,6 @@ An online game store, a regular game service for buying and downloading games, a
  
 ## Microservices's diagram:
 ![Image alt](diagram.jpg)
+
+## Eureka:
+![Image alt](eureka.jpg)
