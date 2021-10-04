@@ -5,40 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6e2f7829-c592-4c98-b733-58300651404c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/community-service/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/community-service/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/community-service/HELP.md" beforeDir="false" afterPath="$PROJECT_DIR$/community-service/HELP.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/community-service/community-service.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/community-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/community-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/community-service/src/main/java/com/example/community/CommunityServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/community-service/src/main/java/com/example/community/CommunityServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/community-service/src/main/java/com/example/community/repository/CommunityRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/community-service/src/main/java/com/example/community/repository/CommunityRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/community-service/src/test/java/com/example/community/CommunityServiceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/community-service/src/test/java/com/example/community/CommunityServiceApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game-service/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/game-service/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game-service/HELP.md" beforeDir="false" afterPath="$PROJECT_DIR$/game-service/HELP.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game-service/game-service.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/game-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game-service/src/main/java/com/example/game/GameServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/game-service/src/main/java/com/example/game/GameServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game-service/src/main/java/com/example/game/repository/GameRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/game-service/src/main/java/com/example/game/repository/GameRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game-service/src/test/java/com/example/game/GameServiceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/game-service/src/test/java/com/example/game/GameServiceApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logging-service/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/logging-service/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logging-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/logging-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logging-service/src/main/java/com/example/logging/LoggingServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/logging-service/src/main/java/com/example/logging/LoggingServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logging-service/src/main/java/com/example/logging/repository/LogRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/logging-service/src/main/java/com/example/logging/repository/LogRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logging-service/src/test/java/com/example/logging/LoggingServiceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/logging-service/src/test/java/com/example/logging/LoggingServiceApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-registry/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-registry/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-registry/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service-registry/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-registry/src/main/java/com/example/registry/ServiceRegistryApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-registry/src/main/java/com/example/registry/ServiceRegistryApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-registry/src/test/java/com/example/registry/ServiceRegistryApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-registry/src/test/java/com/example/registry/ServiceRegistryApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/HELP.md" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/HELP.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/example/user/UserServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/example/user/UserServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/example/user/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/example/user/repository/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/test/java/com/example/user/UserServiceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/test/java/com/example/user/UserServiceApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/target/classes/com/example/user/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/target/classes/com/example/user/service/UserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/user-service.iml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +15,7 @@
   <component name="GOROOT" url="file://$PROJECT_DIR$/../../../../Program Files/Go" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="ProjectId" id="1yjh3l3pMFfJrDVuJk8fnEDSirL" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -62,7 +30,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/user-service" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/community-service" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -133,7 +101,7 @@
       <workItem from="1633381822657" duration="924000" />
       <workItem from="1633383269107" duration="433000" />
       <workItem from="1633383715726" duration="258000" />
-      <workItem from="1633383985309" duration="62000" />
+      <workItem from="1633383985309" duration="767000" />
     </task>
     <servers />
   </component>
