@@ -12,12 +12,12 @@ An online game store, a regular game service for buying and downloading games, a
  
 ## Microservices:
 ### Karina:
-  1) Service of work with users
+  1) Service of gaming communities
   2) Service for creating games
   3) Order management service
 ### Alisher:
   4) Service logging
-  5) Service of gaming communities
+  5) Service of work with users
   6) Registration and authorization service
  
 ## Microservices's diagram:
