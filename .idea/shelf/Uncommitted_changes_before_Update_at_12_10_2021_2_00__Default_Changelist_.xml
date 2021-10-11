@@ -1,0 +1,14 @@
+<changelist name="Uncommitted_changes_before_Update_at_12_10_2021_2_00_[Default_Changelist]" date="1633982450421" recycled="true" deleted="true">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2021_2_00_[Default_Changelist]/shelved.patch" />
+  <option name="DESCRIPTION" value="Uncommitted changes before Update at 12.10.2021 2:00 [Default Changelist]" />
+  <binary>
+    <option name="BEFORE_PATH" value="community-service/target/classes/com/example/community/controller/CommunityController.class" />
+    <option name="AFTER_PATH" value="community-service/target/classes/com/example/community/controller/CommunityController.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2021_2_00_[Default_Changelist]/CommunityController.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="user-service/target/classes/com/example/user/service/UserService.class" />
+    <option name="AFTER_PATH" value="user-service/target/classes/com/example/user/service/UserService.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2021_2_00_[Default_Changelist]/UserService.class" />
+  </binary>
+</changelist>

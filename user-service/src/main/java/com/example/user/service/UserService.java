@@ -50,7 +50,7 @@ public class UserService {
     public ResponseTemplate findUserCommunity(Long userId) {
         ResponseTemplate rt = new ResponseTemplate();
         User user = userRepository.findUserByUserId(userId);
-        Community community = restTemplate.getForObject("http://COMMUNITY-SERVICE/community/" + user.getCommunityId(), Community.class);
+        Community community = restTemplate.getForObject("http://COMMUNITY-SERVICE/communities/" + user.getCommunityId(), Community.class);
         rt.setUser(user);
         rt.setCommunity(community);
         return rt;
