@@ -24,7 +24,7 @@ public class CommunityController {
         return communityService.findCommunityById(communityId);
     }
 
-    @PostMapping("/saveUser")
+    @PostMapping("/saveCommunity")
     public Community saveCommunity(@RequestBody Community community) {
         return communityService.saveCommunity(community);
     }
