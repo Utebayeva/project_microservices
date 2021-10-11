@@ -41,7 +41,7 @@ public class UserService {
     public ResponseTemplate findUserGames(Long userId) {
         ResponseTemplate rt = new ResponseTemplate();
         User user = userRepository.findUserByUserId(userId);
-        Game game = restTemplate.getForObject("http://GAME-SERVICE/games/" + user.getGameId(), Game.class);
+        Game game = restTemplate.getForObject("http://game-service/games/" + user.getGameId(), Game.class);
         rt.setUser(user);
         rt.setGame(game);
         return rt;
@@ -50,7 +50,7 @@ public class UserService {
     public ResponseTemplate findUserCommunity(Long userId) {
         ResponseTemplate rt = new ResponseTemplate();
         User user = userRepository.findUserByUserId(userId);
-        Community community = restTemplate.getForObject("http://COMMUNITY-SERVICE/communities/" + user.getCommunityId(), Community.class);
+        Community community = restTemplate.getForObject("http://community-service/communities/" + user.getCommunityId(), Community.class);
         rt.setUser(user);
         rt.setCommunity(community);
         return rt;
@@ -59,7 +59,7 @@ public class UserService {
     public ResponseTemplate findLog(Long userId) {
         ResponseTemplate rt = new ResponseTemplate();
         User user = userRepository.findUserByUserId(userId);
-        Log log = restTemplate.getForObject("http://LOGGING-SERVICE/logs/" + user.getLogId(), Log.class);
+        Log log = restTemplate.getForObject("http://logging-service/logs/" + user.getLogId(), Log.class);
         rt.setUser(user);
         rt.setLog(log);
         return rt;
