@@ -14,7 +14,7 @@ import javax.persistence.*;
 public class Game {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long gameId;
     private String title;
     private Double price;
