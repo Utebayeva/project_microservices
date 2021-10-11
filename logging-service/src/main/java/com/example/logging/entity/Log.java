@@ -14,7 +14,7 @@ import javax.persistence.*;
 public class Log {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long logId;
     private String action;
     private String description;
