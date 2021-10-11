@@ -10,7 +10,7 @@ import javax.persistence.*;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-@Table(name = "community")
+@Table(name = "communities")
 public class Community {
 
     @Id
