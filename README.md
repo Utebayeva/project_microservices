@@ -14,11 +14,11 @@ An online game store, a regular game service for buying and downloading games, a
 ### Karina:
   1) Service of work with users
   2) Service for creating games
-  3) Service of gaming communities
+  3) Order management service
 ### Alisher:
-  4) Registration and authorization service
-  5) Order management service
-  6) Service for working with developer companies
+  4) Service logging
+  5) Service of gaming communities
+  6) Registration and authorization service
  
 ## Microservices's diagram:
 ![Image alt](diagram.jpg)
