@@ -14,7 +14,7 @@ import javax.persistence.*;
 public class Community {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long communityId;
     private String name;
     private String description;
