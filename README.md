@@ -4,7 +4,7 @@
  Alisher Kuttybai  
 
 ### Emails: 
- karinautebayeva@gmail.com  
+ karinaracheva@gmail.com  
  alisherkuttybai@gmail.com  
 
 ## Description of the project:
