@@ -8,7 +8,7 @@
  alisherkuttybai@gmail.com  
 
 ## Description of the project:
-Our project is a regular online game store selling keys for games in incentive, epic and so on. 
+Our project is a regular online game store selling keys for games in steam, epic and so on. 
  
 ## Microservices:
 ### Karina:
