@@ -4,11 +4,11 @@
  Alisher Kuttybai  
 
 ### Emails: 
- karinautebayeva@gmail.com  
+ karinaracheva@gmail.com  
  alisherkuttybai@gmail.com  
 
 ## Description of the project:
-An online game store, a regular game service for buying and downloading games, and more. That is, it is similar to Steam Store and Epic Store.
+Our project is a regular online game store selling keys for games in steam, epic and so on. 
  
 ## Microservices:
 ### Karina:
