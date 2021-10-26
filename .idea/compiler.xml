@@ -12,9 +12,11 @@
         <module name="service-registry" />
         <module name="logging-service" />
         <module name="community-service" />
+        <module name="cloud-gateway" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="cloud-gateway" target="11" />
       <module name="community-service" target="11" />
       <module name="game-service" target="11" />
       <module name="logging-service" target="11" />
@@ -24,6 +26,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="cloud-gateway" options="-parameters" />
       <module name="community-service" options="-parameters" />
       <module name="game-service" options="-parameters" />
       <module name="logging-service" options="-parameters" />

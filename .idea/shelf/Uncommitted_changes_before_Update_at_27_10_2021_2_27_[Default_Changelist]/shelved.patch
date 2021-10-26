@@ -1,0 +1,2297 @@
+Index: .idea/shelf/Uncommitted_changes_before_Update_at_12_10_2021_2_00__Default_Changelist_.xml
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2021_2_00__Default_Changelist_.xml b/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2021_2_00__Default_Changelist_.xml
+deleted file mode 100644
+--- a/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2021_2_00__Default_Changelist_.xml	(revision 84948ecd33687d67dbf61dafc62740346bf6a762)
++++ /dev/null	(revision 84948ecd33687d67dbf61dafc62740346bf6a762)
+@@ -1,14 +0,0 @@
+-<changelist name="Uncommitted_changes_before_Update_at_12_10_2021_2_00_[Default_Changelist]" date="1633982450421" recycled="true" deleted="true">
+-  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2021_2_00_[Default_Changelist]/shelved.patch" />
+-  <option name="DESCRIPTION" value="Uncommitted changes before Update at 12.10.2021 2:00 [Default Changelist]" />
+-  <binary>
+-    <option name="BEFORE_PATH" value="community-service/target/classes/com/example/community/controller/CommunityController.class" />
+-    <option name="AFTER_PATH" value="community-service/target/classes/com/example/community/controller/CommunityController.class" />
+-    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2021_2_00_[Default_Changelist]/CommunityController.class" />
+-  </binary>
+-  <binary>
+-    <option name="BEFORE_PATH" value="user-service/target/classes/com/example/user/service/UserService.class" />
+-    <option name="AFTER_PATH" value="user-service/target/classes/com/example/user/service/UserService.class" />
+-    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2021_2_00_[Default_Changelist]/UserService.class" />
+-  </binary>
+-</changelist>
+\ No newline at end of file
+Index: .idea/libraries/Maven__org_springframework_security_spring_security_crypto_5_5_3.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__org_springframework_security_spring_security_crypto_5_5_3.xml b/.idea/libraries/Maven__org_springframework_security_spring_security_crypto_5_5_3.xml
+new file mode 100644
+--- /dev/null	(date 1635269177796)
++++ b/.idea/libraries/Maven__org_springframework_security_spring_security_crypto_5_5_3.xml	(date 1635269177796)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: org.springframework.security:spring-security-crypto:5.5.3">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-crypto/5.5.3/spring-security-crypto-5.5.3.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-crypto/5.5.3/spring-security-crypto-5.5.3-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-crypto/5.5.3/spring-security-crypto-5.5.3-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__org_springframework_spring_beans_5_3_12.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__org_springframework_spring_beans_5_3_12.xml b/.idea/libraries/Maven__org_springframework_spring_beans_5_3_12.xml
+new file mode 100644
+--- /dev/null	(date 1635269177816)
++++ b/.idea/libraries/Maven__org_springframework_spring_beans_5_3_12.xml	(date 1635269177816)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: org.springframework:spring-beans:5.3.12">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.3.12/spring-beans-5.3.12.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.3.12/spring-beans-5.3.12-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.3.12/spring-beans-5.3.12-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__org_springframework_spring_aop_5_3_12.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__org_springframework_spring_aop_5_3_12.xml b/.idea/libraries/Maven__org_springframework_spring_aop_5_3_12.xml
+new file mode 100644
+--- /dev/null	(date 1635269177808)
++++ b/.idea/libraries/Maven__org_springframework_spring_aop_5_3_12.xml	(date 1635269177808)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: org.springframework:spring-aop:5.3.12">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.3.12/spring-aop-5.3.12.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.3.12/spring-aop-5.3.12-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.3.12/spring-aop-5.3.12-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__org_springframework_spring_context_support_5_3_12.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__org_springframework_spring_context_support_5_3_12.xml b/.idea/libraries/Maven__org_springframework_spring_context_support_5_3_12.xml
+new file mode 100644
+--- /dev/null	(date 1635269177832)
++++ b/.idea/libraries/Maven__org_springframework_spring_context_support_5_3_12.xml	(date 1635269177832)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: org.springframework:spring-context-support:5.3.12">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context-support/5.3.12/spring-context-support-5.3.12.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context-support/5.3.12/spring-context-support-5.3.12-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context-support/5.3.12/spring-context-support-5.3.12-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__org_springframework_spring_context_5_3_12.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__org_springframework_spring_context_5_3_12.xml b/.idea/libraries/Maven__org_springframework_spring_context_5_3_12.xml
+new file mode 100644
+--- /dev/null	(date 1635269177824)
++++ b/.idea/libraries/Maven__org_springframework_spring_context_5_3_12.xml	(date 1635269177824)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: org.springframework:spring-context:5.3.12">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.3.12/spring-context-5.3.12.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.3.12/spring-context-5.3.12-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.3.12/spring-context-5.3.12-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"6e2f7829-c592-4c98-b733-58300651404c\" name=\"Default Changelist\" comment=\"\">\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_20_0.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_core_2_9_2.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_schema_2_9_2.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spi_2_9_2.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spring_web_2_9_2.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger2_2_9_2.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger_common_2_9_2.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger_ui_2_9_2.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_annotations_1_5_20.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_models_1_5_20.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/libraries/Maven__org_mapstruct_mapstruct_1_2_0_Final.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_core_1_2_0_RELEASE.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_metadata_1_2_0_RELEASE.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/uiDesigner.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_05_10_2021_3_52_[Default_Changelist]/shelved.patch\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_05_10_2021_3_52__Default_Changelist_.xml\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2021_2_00_[Default_Changelist]/CommunityController.class\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2021_2_00_[Default_Changelist]/UserService.class\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2021_2_00_[Default_Changelist]/shelved.patch\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/logging-service/logging-service.iml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/logging-service/logging-service.iml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/logging-service/pom.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/logging-service/pom.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/user-service/pom.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/user-service/pom.xml\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"GOROOT\" url=\"file://$PROJECT_DIR$/../../../../Program Files/Go\" />\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"1yjh3l3pMFfJrDVuJk8fnEDSirL\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">\r\n    <property name=\"DatabaseDriversLRU\" value=\"postgresql\" />\r\n    <property name=\"ExpandSpringBootJavaOptionsPanel\" value=\"true\" />\r\n    <property name=\"RequestMappingsPanelOrder0\" value=\"0\" />\r\n    <property name=\"RequestMappingsPanelOrder1\" value=\"1\" />\r\n    <property name=\"RequestMappingsPanelWidth0\" value=\"75\" />\r\n    <property name=\"RequestMappingsPanelWidth1\" value=\"75\" />\r\n    <property name=\"RunOnceActivity.OpenProjectViewOnStart\" value=\"true\" />\r\n    <property name=\"RunOnceActivity.ShowReadmeOnStart\" value=\"true\" />\r\n    <property name=\"SHARE_PROJECT_CONFIGURATION_FILES\" value=\"true\" />\r\n    <property name=\"WebServerToolWindowFactoryState\" value=\"false\" />\r\n    <property name=\"aspect.path.notification.shown\" value=\"true\" />\r\n    <property name=\"go.import.settings.migrated\" value=\"true\" />\r\n    <property name=\"go.sdk.automatically.set\" value=\"true\" />\r\n    <property name=\"last_opened_file_path\" value=\"$PROJECT_DIR$/../final-ead3\" />\r\n    <property name=\"project.structure.last.edited\" value=\"SDKs\" />\r\n    <property name=\"project.structure.proportion\" value=\"0.15\" />\r\n    <property name=\"project.structure.side.proportion\" value=\"0.2\" />\r\n  </component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"CopyClassDialog.RECENTS_KEY\">\r\n      <recent name=\"com.example.logging.config\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"RunDashboard\">\r\n    <option name=\"configurationTypes\">\r\n      <set>\r\n        <option value=\"SpringBootApplicationConfigurationType\" />\r\n      </set>\r\n    </option>\r\n  </component>\r\n  <component name=\"RunManager\" selected=\"Spring Boot.CommunityServiceApplication\">\r\n    <configuration default=\"true\" type=\"ArquillianJUnit\" factoryName=\"\" nameIsGenerated=\"true\">\r\n      <option name=\"arquillianRunConfiguration\">\r\n        <value>\r\n          <option name=\"containerStateName\" value=\"\" />\r\n        </value>\r\n      </option>\r\n      <option name=\"TEST_OBJECT\" value=\"class\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"CommunityServiceApplication\" type=\"SpringBootApplicationConfigurationType\" factoryName=\"Spring Boot\">\r\n      <module name=\"community-service\" />\r\n      <option name=\"SPRING_BOOT_MAIN_CLASS\" value=\"com.example.community.CommunityServiceApplication\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"GameServiceApplication\" type=\"SpringBootApplicationConfigurationType\" factoryName=\"Spring Boot\">\r\n      <module name=\"game-service\" />\r\n      <option name=\"SPRING_BOOT_MAIN_CLASS\" value=\"com.example.game.GameServiceApplication\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"LogServiceApp\" type=\"SpringBootApplicationConfigurationType\" factoryName=\"Spring Boot\">\r\n      <module name=\"logging-service\" />\r\n      <option name=\"SPRING_BOOT_MAIN_CLASS\" value=\"com.example.logging.LoggingServiceApplication\" />\r\n      <option name=\"VM_PARAMETERS\" value=\"-Dserver.port=6065\" />\r\n      <option name=\"ALTERNATIVE_JRE_PATH\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"LoggingServiceApplication\" type=\"SpringBootApplicationConfigurationType\" factoryName=\"Spring Boot\">\r\n      <module name=\"logging-service\" />\r\n      <option name=\"SPRING_BOOT_MAIN_CLASS\" value=\"com.example.logging.LoggingServiceApplication\" />\r\n      <option name=\"VM_PARAMETERS\" value=\"-Dserver.port=6062\" />\r\n      <option name=\"ALTERNATIVE_JRE_PATH\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"ServiceRegistryApplication\" type=\"SpringBootApplicationConfigurationType\" factoryName=\"Spring Boot\">\r\n      <module name=\"service-registry\" />\r\n      <option name=\"SPRING_BOOT_MAIN_CLASS\" value=\"com.example.registry.ServiceRegistryApplication\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"UserServiceApplication\" type=\"SpringBootApplicationConfigurationType\" factoryName=\"Spring Boot\">\r\n      <module name=\"user-service\" />\r\n      <option name=\"SPRING_BOOT_MAIN_CLASS\" value=\"com.example.user.UserServiceApplication\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"6e2f7829-c592-4c98-b733-58300651404c\" name=\"Default Changelist\" comment=\"\" />\r\n      <created>1633381821483</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1633381821483</updated>\r\n      <workItem from=\"1633381822657\" duration=\"924000\" />\r\n      <workItem from=\"1633383269107\" duration=\"433000\" />\r\n      <workItem from=\"1633383715726\" duration=\"258000\" />\r\n      <workItem from=\"1633383985309\" duration=\"932000\" />\r\n      <workItem from=\"1633977340521\" duration=\"9762000\" />\r\n      <workItem from=\"1634024581308\" duration=\"6985000\" />\r\n      <workItem from=\"1634075313279\" duration=\"600000\" />\r\n      <workItem from=\"1634991951368\" duration=\"1013000\" />\r\n    </task>\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n    <option name=\"oldMeFiltersMigrated\" value=\"true\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 84948ecd33687d67dbf61dafc62740346bf6a762)
++++ b/.idea/workspace.xml	(date 1635280066121)
+@@ -5,29 +5,96 @@
+   </component>
+   <component name="ChangeListManager">
+     <list default="true" id="6e2f7829-c592-4c98-b733-58300651404c" name="Default Changelist" comment="">
+-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_20_0.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_core_2_9_2.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_schema_2_9_2.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spi_2_9_2.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spring_web_2_9_2.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger2_2_9_2.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger_common_2_9_2.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger_ui_2_9_2.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_annotations_1_5_20.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_models_1_5_20.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mapstruct_mapstruct_1_2_0_Final.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_core_1_2_0_RELEASE.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_metadata_1_2_0_RELEASE.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_05_10_2021_3_52_[Default_Changelist]/shelved.patch" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_05_10_2021_3_52__Default_Changelist_.xml" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2021_2_00_[Default_Changelist]/CommunityController.class" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2021_2_00_[Default_Changelist]/UserService.class" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2021_2_00_[Default_Changelist]/shelved.patch" beforeDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_afterburner_2_12_5.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_1.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_15_0.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_archaius_archaius_core_0_4_1.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_archaius_archaius_core_0_7_7.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_core_1_5_18.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_javanica_1_5_18.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_metrics_event_stream_1_5_18.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_serialization_1_5_18.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_micrometer_micrometer_core_1_7_5.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_buffer_4_1_69_Final.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_4_1_69_Final.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_dns_4_1_69_Final.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_http2_4_1_69_Final.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_http_4_1_69_Final.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_socks_4_1_69_Final.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_common_4_1_69_Final.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_4_1_69_Final.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_proxy_4_1_69_Final.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_resolver_4_1_69_Final.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_resolver_dns_4_1_69_Final.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_resolver_dns_native_macos_osx_x86_64_4_1_69_Final.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_4_1_69_Final.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_native_epoll_linux_x86_64_4_1_69_Final.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_native_unix_common_4_1_69_Final.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_projectreactor_netty_reactor_netty_core_1_0_12.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_projectreactor_netty_reactor_netty_http_1_0_12.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_projectreactor_reactor_core_3_4_11.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxjava_1_3_8.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxjava_reactive_streams_1_2_1.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_validation_jakarta_validation_api_2_0_2.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_12_0.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_54.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_54.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_54.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hdrhistogram_HdrHistogram_2_1_9.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_2_0_Final.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_5_6.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_2_5_6.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_autoconfigure_2_5_6.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_5_6.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_5_6.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_actuator_2_5_6.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_5_6.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_cache_2_5_6.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_freemarker_2_5_6.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_5_6.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_5_6.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_reactor_netty_2_5_6.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_5_6.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_5_6.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_validation_2_5_6.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_5_6.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_webflux_2_5_6.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_5_6.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_5_6.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_gateway_server_3_0_4.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_archaius_2_2_9_RELEASE.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_hystrix_2_2_1_RELEASE.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_hystrix_2_2_9_RELEASE.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_hystrix_dashboard_2_2_1_RELEASE.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_ribbon_2_2_9_RELEASE.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_gateway_3_0_4.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_archaius_2_2_9_RELEASE.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_hystrix_2_2_9_RELEASE.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_crypto_5_5_3.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_3_12.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_3_12.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_3_12.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_5_3_12.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_3_12.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_3_12.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_3_12.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_3_12.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_3_12.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webflux_5_3_12.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_3_12.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_d3js_3_4_11.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_jquery_2_1_1.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_8_3.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2021_2_00__Default_Changelist_.xml" beforeDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/logging-service/logging-service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/logging-service/logging-service.iml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/logging-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/logging-service/pom.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/user-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/pom.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/community-service/target/classes/com/example/community/controller/CommunityController.class" beforeDir="false" afterPath="$PROJECT_DIR$/community-service/target/classes/com/example/community/controller/CommunityController.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/community-service/target/classes/com/example/community/entity/Community.class" beforeDir="false" afterPath="$PROJECT_DIR$/community-service/target/classes/com/example/community/entity/Community.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/game-service/target/classes/com/example/game/entity/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/game-service/target/classes/com/example/game/entity/Game.class" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -44,6 +111,14 @@
+   <component name="GOROOT" url="file://$PROJECT_DIR$/../../../../Program Files/Go" />
+   <component name="Git.Settings">
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
++  </component>
++  <component name="GitSEFilterConfiguration">
++    <file-type-list>
++      <filtered-out-file-type name="LOCAL_BRANCH" />
++      <filtered-out-file-type name="REMOTE_BRANCH" />
++      <filtered-out-file-type name="TAG" />
++      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
++    </file-type-list>
+   </component>
+   <component name="ProjectId" id="1yjh3l3pMFfJrDVuJk8fnEDSirL" />
+   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+@@ -65,13 +140,15 @@
+     <property name="aspect.path.notification.shown" value="true" />
+     <property name="go.import.settings.migrated" value="true" />
+     <property name="go.sdk.automatically.set" value="true" />
+-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../final-ead3" />
+-    <property name="project.structure.last.edited" value="SDKs" />
++    <property name="last_opened_file_path" value="$PROJECT_DIR$/cloud-gateway" />
++    <property name="project.structure.last.edited" value="Modules" />
+     <property name="project.structure.proportion" value="0.15" />
+     <property name="project.structure.side.proportion" value="0.2" />
+   </component>
+   <component name="RecentsManager">
+     <key name="CopyClassDialog.RECENTS_KEY">
++      <recent name="com.example.game.config" />
++      <recent name="com.example.community.config" />
+       <recent name="com.example.logging.config" />
+     </key>
+   </component>
+@@ -82,14 +159,10 @@
+       </set>
+     </option>
+   </component>
+-  <component name="RunManager" selected="Spring Boot.CommunityServiceApplication">
+-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+-      <option name="arquillianRunConfiguration">
+-        <value>
+-          <option name="containerStateName" value="" />
+-        </value>
+-      </option>
+-      <option name="TEST_OBJECT" value="class" />
++  <component name="RunManager" selected="Spring Boot.CloudGatewayApplication">
++    <configuration name="CloudGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
++      <module name="cloud-gateway" />
++      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.cloudgateway.CloudGatewayApplication" />
+       <method v="2">
+         <option name="Make" enabled="true" />
+       </method>
+@@ -104,6 +177,13 @@
+     <configuration name="GameServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+       <module name="game-service" />
+       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.game.GameServiceApplication" />
++      <method v="2">
++        <option name="Make" enabled="true" />
++      </method>
++    </configuration>
++    <configuration name="HystrixDashboardApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
++      <module name="hystrix-dashboard" />
++      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.hystrixdashboard.HystrixDashboardApplication" />
+       <method v="2">
+         <option name="Make" enabled="true" />
+       </method>
+@@ -140,6 +220,16 @@
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
++    <list>
++      <item itemvalue="Spring Boot.CommunityServiceApplication" />
++      <item itemvalue="Spring Boot.HystrixDashboardApplication" />
++      <item itemvalue="Spring Boot.GameServiceApplication" />
++      <item itemvalue="Spring Boot.LoggingServiceApplication" />
++      <item itemvalue="Spring Boot.LogServiceApp" />
++      <item itemvalue="Spring Boot.ServiceRegistryApplication" />
++      <item itemvalue="Spring Boot.UserServiceApplication" />
++      <item itemvalue="Spring Boot.CloudGatewayApplication" />
++    </list>
+   </component>
+   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+   <component name="TaskManager">
+@@ -156,7 +246,9 @@
+       <workItem from="1633977340521" duration="9762000" />
+       <workItem from="1634024581308" duration="6985000" />
+       <workItem from="1634075313279" duration="600000" />
+-      <workItem from="1634991951368" duration="1013000" />
++      <workItem from="1634991951368" duration="1759000" />
++      <workItem from="1635020507835" duration="16000" />
++      <workItem from="1635265475336" duration="7123000" />
+     </task>
+     <servers />
+   </component>
+Index: .idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_5_6.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_5_6.xml b/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_5_6.xml
+new file mode 100644
+--- /dev/null	(date 1635269177716)
++++ b/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_5_6.xml	(date 1635269177716)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: org.springframework.boot:spring-boot-starter-tomcat:2.5.6">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-tomcat/2.5.6/spring-boot-starter-tomcat-2.5.6.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-tomcat/2.5.6/spring-boot-starter-tomcat-2.5.6-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-tomcat/2.5.6/spring-boot-starter-tomcat-2.5.6-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/modules.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ProjectModuleManager\">\r\n    <modules>\r\n      <module fileurl=\"file://$PROJECT_DIR$/community-service/community-service.iml\" filepath=\"$PROJECT_DIR$/community-service/community-service.iml\" />\r\n      <module fileurl=\"file://$PROJECT_DIR$/.idea/ead4-project.iml\" filepath=\"$PROJECT_DIR$/.idea/ead4-project.iml\" />\r\n      <module fileurl=\"file://$PROJECT_DIR$/game-service/game-service.iml\" filepath=\"$PROJECT_DIR$/game-service/game-service.iml\" />\r\n      <module fileurl=\"file://$PROJECT_DIR$/logging-service/logging-service.iml\" filepath=\"$PROJECT_DIR$/logging-service/logging-service.iml\" />\r\n      <module fileurl=\"file://$PROJECT_DIR$/service-registry/service-registry.iml\" filepath=\"$PROJECT_DIR$/service-registry/service-registry.iml\" />\r\n      <module fileurl=\"file://$PROJECT_DIR$/user-service/user-service.iml\" filepath=\"$PROJECT_DIR$/user-service/user-service.iml\" />\r\n    </modules>\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/modules.xml b/.idea/modules.xml
+--- a/.idea/modules.xml	(revision 84948ecd33687d67dbf61dafc62740346bf6a762)
++++ b/.idea/modules.xml	(date 1635270072138)
+@@ -2,9 +2,11 @@
+ <project version="4">
+   <component name="ProjectModuleManager">
+     <modules>
++      <module fileurl="file://$PROJECT_DIR$/cloud-gateway/cloud-gateway.iml" filepath="$PROJECT_DIR$/cloud-gateway/cloud-gateway.iml" />
+       <module fileurl="file://$PROJECT_DIR$/community-service/community-service.iml" filepath="$PROJECT_DIR$/community-service/community-service.iml" />
+       <module fileurl="file://$PROJECT_DIR$/.idea/ead4-project.iml" filepath="$PROJECT_DIR$/.idea/ead4-project.iml" />
+       <module fileurl="file://$PROJECT_DIR$/game-service/game-service.iml" filepath="$PROJECT_DIR$/game-service/game-service.iml" />
++      <module fileurl="file://$PROJECT_DIR$/hystrix-dashboard/hystrix-dashboard.iml" filepath="$PROJECT_DIR$/hystrix-dashboard/hystrix-dashboard.iml" />
+       <module fileurl="file://$PROJECT_DIR$/logging-service/logging-service.iml" filepath="$PROJECT_DIR$/logging-service/logging-service.iml" />
+       <module fileurl="file://$PROJECT_DIR$/service-registry/service-registry.iml" filepath="$PROJECT_DIR$/service-registry/service-registry.iml" />
+       <module fileurl="file://$PROJECT_DIR$/user-service/user-service.iml" filepath="$PROJECT_DIR$/user-service/user-service.iml" />
+Index: .idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_5_6.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_5_6.xml b/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_5_6.xml
+new file mode 100644
+--- /dev/null	(date 1635269177708)
++++ b/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_5_6.xml	(date 1635269177708)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: org.springframework.boot:spring-boot-starter-test:2.5.6">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-test/2.5.6/spring-boot-starter-test-2.5.6.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-test/2.5.6/spring-boot-starter-test-2.5.6-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-test/2.5.6/spring-boot-starter-test-2.5.6-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_5_6.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_5_6.xml b/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_5_6.xml
+new file mode 100644
+--- /dev/null	(date 1635269177732)
++++ b/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_5_6.xml	(date 1635269177732)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: org.springframework.boot:spring-boot-test:2.5.6">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-test/2.5.6/spring-boot-test-2.5.6.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-test/2.5.6/spring-boot-test-2.5.6-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-test/2.5.6/spring-boot-test-2.5.6-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_5_6.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_5_6.xml b/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_5_6.xml
+new file mode 100644
+--- /dev/null	(date 1635269177724)
++++ b/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_5_6.xml	(date 1635269177724)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: org.springframework.boot:spring-boot-starter-web:2.5.6">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-web/2.5.6/spring-boot-starter-web-2.5.6.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-web/2.5.6/spring-boot-starter-web-2.5.6-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-web/2.5.6/spring-boot-starter-web-2.5.6-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_5_6.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_5_6.xml b/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_5_6.xml
+new file mode 100644
+--- /dev/null	(date 1635269177740)
++++ b/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_5_6.xml	(date 1635269177740)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: org.springframework.boot:spring-boot-test-autoconfigure:2.5.6">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-test-autoconfigure/2.5.6/spring-boot-test-autoconfigure-2.5.6.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-test-autoconfigure/2.5.6/spring-boot-test-autoconfigure-2.5.6-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-test-autoconfigure/2.5.6/spring-boot-test-autoconfigure-2.5.6-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_hystrix_dashboard_2_2_1_RELEASE.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_hystrix_dashboard_2_2_1_RELEASE.xml b/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_hystrix_dashboard_2_2_1_RELEASE.xml
+new file mode 100644
+--- /dev/null	(date 1635269177764)
++++ b/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_hystrix_dashboard_2_2_1_RELEASE.xml	(date 1635269177764)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: org.springframework.cloud:spring-cloud-netflix-hystrix-dashboard:2.2.1.RELEASE">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-hystrix-dashboard/2.2.1.RELEASE/spring-cloud-netflix-hystrix-dashboard-2.2.1.RELEASE.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-hystrix-dashboard/2.2.1.RELEASE/spring-cloud-netflix-hystrix-dashboard-2.2.1.RELEASE-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-hystrix-dashboard/2.2.1.RELEASE/spring-cloud-netflix-hystrix-dashboard-2.2.1.RELEASE-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_hystrix_2_2_1_RELEASE.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_hystrix_2_2_1_RELEASE.xml b/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_hystrix_2_2_1_RELEASE.xml
+new file mode 100644
+--- /dev/null	(date 1635269177756)
++++ b/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_hystrix_2_2_1_RELEASE.xml	(date 1635269177756)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: org.springframework.cloud:spring-cloud-netflix-hystrix:2.2.1.RELEASE">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-hystrix/2.2.1.RELEASE/spring-cloud-netflix-hystrix-2.2.1.RELEASE.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-hystrix/2.2.1.RELEASE/spring-cloud-netflix-hystrix-2.2.1.RELEASE-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-hystrix/2.2.1.RELEASE/spring-cloud-netflix-hystrix-2.2.1.RELEASE-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_5_6.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_5_6.xml b/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_5_6.xml
+new file mode 100644
+--- /dev/null	(date 1635269177640)
++++ b/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_5_6.xml	(date 1635269177640)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: org.springframework.boot:spring-boot-starter:2.5.6">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter/2.5.6/spring-boot-starter-2.5.6.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter/2.5.6/spring-boot-starter-2.5.6-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter/2.5.6/spring-boot-starter-2.5.6-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_5_6.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_5_6.xml b/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_5_6.xml
+new file mode 100644
+--- /dev/null	(date 1635269177632)
++++ b/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_5_6.xml	(date 1635269177632)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: org.springframework.boot:spring-boot-autoconfigure:2.5.6">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.5.6/spring-boot-autoconfigure-2.5.6.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.5.6/spring-boot-autoconfigure-2.5.6-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.5.6/spring-boot-autoconfigure-2.5.6-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_5_6.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_5_6.xml b/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_5_6.xml
+new file mode 100644
+--- /dev/null	(date 1635269177660)
++++ b/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_5_6.xml	(date 1635269177660)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: org.springframework.boot:spring-boot-starter-aop:2.5.6">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-aop/2.5.6/spring-boot-starter-aop-2.5.6.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-aop/2.5.6/spring-boot-starter-aop-2.5.6-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-aop/2.5.6/spring-boot-starter-aop-2.5.6-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__org_springframework_boot_spring_boot_starter_actuator_2_5_6.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_actuator_2_5_6.xml b/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_actuator_2_5_6.xml
+new file mode 100644
+--- /dev/null	(date 1635269177648)
++++ b/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_actuator_2_5_6.xml	(date 1635269177648)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: org.springframework.boot:spring-boot-starter-actuator:2.5.6">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-actuator/2.5.6/spring-boot-starter-actuator-2.5.6.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-actuator/2.5.6/spring-boot-starter-actuator-2.5.6-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-actuator/2.5.6/spring-boot-starter-actuator-2.5.6-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__org_springframework_boot_spring_boot_starter_freemarker_2_5_6.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_freemarker_2_5_6.xml b/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_freemarker_2_5_6.xml
+new file mode 100644
+--- /dev/null	(date 1635269177684)
++++ b/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_freemarker_2_5_6.xml	(date 1635269177684)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: org.springframework.boot:spring-boot-starter-freemarker:2.5.6">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-freemarker/2.5.6/spring-boot-starter-freemarker-2.5.6.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-freemarker/2.5.6/spring-boot-starter-freemarker-2.5.6-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-freemarker/2.5.6/spring-boot-starter-freemarker-2.5.6-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__org_springframework_boot_spring_boot_starter_cache_2_5_6.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_cache_2_5_6.xml b/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_cache_2_5_6.xml
+new file mode 100644
+--- /dev/null	(date 1635269177676)
++++ b/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_cache_2_5_6.xml	(date 1635269177676)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: org.springframework.boot:spring-boot-starter-cache:2.5.6">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-cache/2.5.6/spring-boot-starter-cache-2.5.6.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-cache/2.5.6/spring-boot-starter-cache-2.5.6-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-cache/2.5.6/spring-boot-starter-cache-2.5.6-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_5_6.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_5_6.xml b/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_5_6.xml
+new file mode 100644
+--- /dev/null	(date 1635269177700)
++++ b/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_5_6.xml	(date 1635269177700)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: org.springframework.boot:spring-boot-starter-logging:2.5.6">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-logging/2.5.6/spring-boot-starter-logging-2.5.6.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-logging/2.5.6/spring-boot-starter-logging-2.5.6-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-logging/2.5.6/spring-boot-starter-logging-2.5.6-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_5_6.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_5_6.xml b/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_5_6.xml
+new file mode 100644
+--- /dev/null	(date 1635269177692)
++++ b/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_5_6.xml	(date 1635269177692)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: org.springframework.boot:spring-boot-starter-json:2.5.6">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-json/2.5.6/spring-boot-starter-json-2.5.6.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-json/2.5.6/spring-boot-starter-json-2.5.6-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-json/2.5.6/spring-boot-starter-json-2.5.6-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml b/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml
+new file mode 100644
+--- /dev/null	(date 1635271032088)
++++ b/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml	(date 1635271032088)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: org.ow2.asm:asm:5.0.4">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/ow2/asm/asm/5.0.4/asm-5.0.4.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/org/ow2/asm/asm/5.0.4/asm-5.0.4-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/ow2/asm/asm/5.0.4/asm-5.0.4-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_54.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_54.xml b/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_54.xml
+new file mode 100644
+--- /dev/null	(date 1635269177568)
++++ b/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_54.xml	(date 1635269177568)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: org.apache.tomcat.embed:tomcat-embed-el:9.0.54">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-el/9.0.54/tomcat-embed-el-9.0.54.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-el/9.0.54/tomcat-embed-el-9.0.54-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-el/9.0.54/tomcat-embed-el-9.0.54-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_54.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_54.xml b/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_54.xml
+new file mode 100644
+--- /dev/null	(date 1635269177560)
++++ b/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_54.xml	(date 1635269177560)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: org.apache.tomcat.embed:tomcat-embed-core:9.0.54">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/9.0.54/tomcat-embed-core-9.0.54.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/9.0.54/tomcat-embed-core-9.0.54-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/9.0.54/tomcat-embed-core-9.0.54-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__org_apache_commons_commons_lang3_3_12_0.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_12_0.xml b/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_12_0.xml
+new file mode 100644
+--- /dev/null	(date 1635271032072)
++++ b/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_12_0.xml	(date 1635271032072)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: org.apache.commons:commons-lang3:3.12.0">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_hystrix_2_2_9_RELEASE.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_hystrix_2_2_9_RELEASE.xml b/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_hystrix_2_2_9_RELEASE.xml
+new file mode 100644
+--- /dev/null	(date 1635271032108)
++++ b/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_hystrix_2_2_9_RELEASE.xml	(date 1635271032108)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: org.springframework.cloud:spring-cloud-netflix-hystrix:2.2.9.RELEASE">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-hystrix/2.2.9.RELEASE/spring-cloud-netflix-hystrix-2.2.9.RELEASE.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-hystrix/2.2.9.RELEASE/spring-cloud-netflix-hystrix-2.2.9.RELEASE-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-hystrix/2.2.9.RELEASE/spring-cloud-netflix-hystrix-2.2.9.RELEASE-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__org_hdrhistogram_HdrHistogram_2_1_9.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__org_hdrhistogram_HdrHistogram_2_1_9.xml b/.idea/libraries/Maven__org_hdrhistogram_HdrHistogram_2_1_9.xml
+new file mode 100644
+--- /dev/null	(date 1635269177584)
++++ b/.idea/libraries/Maven__org_hdrhistogram_HdrHistogram_2_1_9.xml	(date 1635269177584)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: org.hdrhistogram:HdrHistogram:2.1.9">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/hdrhistogram/HdrHistogram/2.1.9/HdrHistogram-2.1.9.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/org/hdrhistogram/HdrHistogram/2.1.9/HdrHistogram-2.1.9-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/hdrhistogram/HdrHistogram/2.1.9/HdrHistogram-2.1.9-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_54.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_54.xml b/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_54.xml
+new file mode 100644
+--- /dev/null	(date 1635269177576)
++++ b/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_54.xml	(date 1635269177576)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: org.apache.tomcat.embed:tomcat-embed-websocket:9.0.54">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-websocket/9.0.54/tomcat-embed-websocket-9.0.54.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-websocket/9.0.54/tomcat-embed-websocket-9.0.54-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-websocket/9.0.54/tomcat-embed-websocket-9.0.54-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_archaius_2_2_9_RELEASE.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_archaius_2_2_9_RELEASE.xml b/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_archaius_2_2_9_RELEASE.xml
+new file mode 100644
+--- /dev/null	(date 1635271032096)
++++ b/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_archaius_2_2_9_RELEASE.xml	(date 1635271032096)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: org.springframework.cloud:spring-cloud-netflix-archaius:2.2.9.RELEASE">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-archaius/2.2.9.RELEASE/spring-cloud-netflix-archaius-2.2.9.RELEASE.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-archaius/2.2.9.RELEASE/spring-cloud-netflix-archaius-2.2.9.RELEASE-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-archaius/2.2.9.RELEASE/spring-cloud-netflix-archaius-2.2.9.RELEASE-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_archaius_2_2_9_RELEASE.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_archaius_2_2_9_RELEASE.xml b/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_archaius_2_2_9_RELEASE.xml
+new file mode 100644
+--- /dev/null	(date 1635271032128)
++++ b/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_archaius_2_2_9_RELEASE.xml	(date 1635271032128)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: org.springframework.cloud:spring-cloud-starter-netflix-archaius:2.2.9.RELEASE">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-starter-netflix-archaius/2.2.9.RELEASE/spring-cloud-starter-netflix-archaius-2.2.9.RELEASE.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-starter-netflix-archaius/2.2.9.RELEASE/spring-cloud-starter-netflix-archaius-2.2.9.RELEASE-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-starter-netflix-archaius/2.2.9.RELEASE/spring-cloud-starter-netflix-archaius-2.2.9.RELEASE-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__org_springframework_boot_spring_boot_2_5_6.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_5_6.xml b/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_5_6.xml
+new file mode 100644
+--- /dev/null	(date 1635269177604)
++++ b/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_5_6.xml	(date 1635269177604)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: org.springframework.boot:spring-boot:2.5.6">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.5.6/spring-boot-2.5.6.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.5.6/spring-boot-2.5.6-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.5.6/spring-boot-2.5.6-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_ribbon_2_2_9_RELEASE.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_ribbon_2_2_9_RELEASE.xml b/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_ribbon_2_2_9_RELEASE.xml
+new file mode 100644
+--- /dev/null	(date 1635271032120)
++++ b/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_ribbon_2_2_9_RELEASE.xml	(date 1635271032120)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: org.springframework.cloud:spring-cloud-netflix-ribbon:2.2.9.RELEASE">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-ribbon/2.2.9.RELEASE/spring-cloud-netflix-ribbon-2.2.9.RELEASE.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-ribbon/2.2.9.RELEASE/spring-cloud-netflix-ribbon-2.2.9.RELEASE-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-ribbon/2.2.9.RELEASE/spring-cloud-netflix-ribbon-2.2.9.RELEASE-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_autoconfigure_2_5_6.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_autoconfigure_2_5_6.xml b/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_autoconfigure_2_5_6.xml
+new file mode 100644
+--- /dev/null	(date 1635269177624)
++++ b/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_autoconfigure_2_5_6.xml	(date 1635269177624)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: org.springframework.boot:spring-boot-actuator-autoconfigure:2.5.6">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-actuator-autoconfigure/2.5.6/spring-boot-actuator-autoconfigure-2.5.6.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-actuator-autoconfigure/2.5.6/spring-boot-actuator-autoconfigure-2.5.6-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-actuator-autoconfigure/2.5.6/spring-boot-actuator-autoconfigure-2.5.6-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_hystrix_2_2_9_RELEASE.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_hystrix_2_2_9_RELEASE.xml b/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_hystrix_2_2_9_RELEASE.xml
+new file mode 100644
+--- /dev/null	(date 1635271032140)
++++ b/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_hystrix_2_2_9_RELEASE.xml	(date 1635271032140)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: org.springframework.cloud:spring-cloud-starter-netflix-hystrix:2.2.9.RELEASE">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-starter-netflix-hystrix/2.2.9.RELEASE/spring-cloud-starter-netflix-hystrix-2.2.9.RELEASE.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-starter-netflix-hystrix/2.2.9.RELEASE/spring-cloud-starter-netflix-hystrix-2.2.9.RELEASE-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-starter-netflix-hystrix/2.2.9.RELEASE/spring-cloud-starter-netflix-hystrix-2.2.9.RELEASE-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_2_5_6.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_2_5_6.xml b/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_2_5_6.xml
+new file mode 100644
+--- /dev/null	(date 1635269177612)
++++ b/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_2_5_6.xml	(date 1635269177612)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: org.springframework.boot:spring-boot-actuator:2.5.6">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-actuator/2.5.6/spring-boot-actuator-2.5.6.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-actuator/2.5.6/spring-boot-actuator-2.5.6-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-actuator/2.5.6/spring-boot-actuator-2.5.6-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/encodings.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"Encoding\">\r\n    <file url=\"file://$PROJECT_DIR$/community-service/src/main/java\" charset=\"UTF-8\" />\r\n    <file url=\"file://$PROJECT_DIR$/community-service/src/main/resources\" charset=\"UTF-8\" />\r\n    <file url=\"file://$PROJECT_DIR$/game-service/src/main/java\" charset=\"UTF-8\" />\r\n    <file url=\"file://$PROJECT_DIR$/game-service/src/main/resources\" charset=\"UTF-8\" />\r\n    <file url=\"file://$PROJECT_DIR$/logging-service/src/main/java\" charset=\"UTF-8\" />\r\n    <file url=\"file://$PROJECT_DIR$/logging-service/src/main/resources\" charset=\"UTF-8\" />\r\n    <file url=\"file://$PROJECT_DIR$/service-registry/src/main/java\" charset=\"UTF-8\" />\r\n    <file url=\"file://$PROJECT_DIR$/service-registry/src/main/resources\" charset=\"UTF-8\" />\r\n    <file url=\"file://$PROJECT_DIR$/user-service/src/main/java\" charset=\"UTF-8\" />\r\n    <file url=\"file://$PROJECT_DIR$/user-service/src/main/resources\" charset=\"UTF-8\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/encodings.xml b/.idea/encodings.xml
+--- a/.idea/encodings.xml	(revision 84948ecd33687d67dbf61dafc62740346bf6a762)
++++ b/.idea/encodings.xml	(date 1635270125460)
+@@ -1,10 +1,12 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+   <component name="Encoding">
++    <file url="file://$PROJECT_DIR$/cloud-gateway/src/main/java" charset="UTF-8" />
+     <file url="file://$PROJECT_DIR$/community-service/src/main/java" charset="UTF-8" />
+     <file url="file://$PROJECT_DIR$/community-service/src/main/resources" charset="UTF-8" />
+     <file url="file://$PROJECT_DIR$/game-service/src/main/java" charset="UTF-8" />
+     <file url="file://$PROJECT_DIR$/game-service/src/main/resources" charset="UTF-8" />
++    <file url="file://$PROJECT_DIR$/hystrix-dashboard/src/main/java" charset="UTF-8" />
+     <file url="file://$PROJECT_DIR$/logging-service/src/main/java" charset="UTF-8" />
+     <file url="file://$PROJECT_DIR$/logging-service/src/main/resources" charset="UTF-8" />
+     <file url="file://$PROJECT_DIR$/service-registry/src/main/java" charset="UTF-8" />
+Index: .idea/libraries/Maven__io_netty_netty_codec_http2_4_1_69_Final.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__io_netty_netty_codec_http2_4_1_69_Final.xml b/.idea/libraries/Maven__io_netty_netty_codec_http2_4_1_69_Final.xml
+new file mode 100644
+--- /dev/null	(date 1635270979845)
++++ b/.idea/libraries/Maven__io_netty_netty_codec_http2_4_1_69_Final.xml	(date 1635270979845)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: io.netty:netty-codec-http2:4.1.69.Final">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-codec-http2/4.1.69.Final/netty-codec-http2-4.1.69.Final.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-codec-http2/4.1.69.Final/netty-codec-http2-4.1.69.Final-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-codec-http2/4.1.69.Final/netty-codec-http2-4.1.69.Final-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__io_netty_netty_codec_dns_4_1_69_Final.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__io_netty_netty_codec_dns_4_1_69_Final.xml b/.idea/libraries/Maven__io_netty_netty_codec_dns_4_1_69_Final.xml
+new file mode 100644
+--- /dev/null	(date 1635270979837)
++++ b/.idea/libraries/Maven__io_netty_netty_codec_dns_4_1_69_Final.xml	(date 1635270979837)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: io.netty:netty-codec-dns:4.1.69.Final">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-codec-dns/4.1.69.Final/netty-codec-dns-4.1.69.Final.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-codec-dns/4.1.69.Final/netty-codec-dns-4.1.69.Final-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-codec-dns/4.1.69.Final/netty-codec-dns-4.1.69.Final-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__io_netty_netty_codec_socks_4_1_69_Final.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__io_netty_netty_codec_socks_4_1_69_Final.xml b/.idea/libraries/Maven__io_netty_netty_codec_socks_4_1_69_Final.xml
+new file mode 100644
+--- /dev/null	(date 1635270979865)
++++ b/.idea/libraries/Maven__io_netty_netty_codec_socks_4_1_69_Final.xml	(date 1635270979865)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: io.netty:netty-codec-socks:4.1.69.Final">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-codec-socks/4.1.69.Final/netty-codec-socks-4.1.69.Final.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-codec-socks/4.1.69.Final/netty-codec-socks-4.1.69.Final-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-codec-socks/4.1.69.Final/netty-codec-socks-4.1.69.Final-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__io_netty_netty_codec_http_4_1_69_Final.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__io_netty_netty_codec_http_4_1_69_Final.xml b/.idea/libraries/Maven__io_netty_netty_codec_http_4_1_69_Final.xml
+new file mode 100644
+--- /dev/null	(date 1635270979853)
++++ b/.idea/libraries/Maven__io_netty_netty_codec_http_4_1_69_Final.xml	(date 1635270979853)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: io.netty:netty-codec-http:4.1.69.Final">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-codec-http/4.1.69.Final/netty-codec-http-4.1.69.Final.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-codec-http/4.1.69.Final/netty-codec-http-4.1.69.Final-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-codec-http/4.1.69.Final/netty-codec-http-4.1.69.Final-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__io_netty_netty_handler_4_1_69_Final.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__io_netty_netty_handler_4_1_69_Final.xml b/.idea/libraries/Maven__io_netty_netty_handler_4_1_69_Final.xml
+new file mode 100644
+--- /dev/null	(date 1635270979889)
++++ b/.idea/libraries/Maven__io_netty_netty_handler_4_1_69_Final.xml	(date 1635270979889)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: io.netty:netty-handler:4.1.69.Final">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-handler/4.1.69.Final/netty-handler-4.1.69.Final.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-handler/4.1.69.Final/netty-handler-4.1.69.Final-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-handler/4.1.69.Final/netty-handler-4.1.69.Final-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__io_netty_netty_common_4_1_69_Final.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__io_netty_netty_common_4_1_69_Final.xml b/.idea/libraries/Maven__io_netty_netty_common_4_1_69_Final.xml
+new file mode 100644
+--- /dev/null	(date 1635270979877)
++++ b/.idea/libraries/Maven__io_netty_netty_common_4_1_69_Final.xml	(date 1635270979877)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: io.netty:netty-common:4.1.69.Final">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-common/4.1.69.Final/netty-common-4.1.69.Final.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-common/4.1.69.Final/netty-common-4.1.69.Final-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-common/4.1.69.Final/netty-common-4.1.69.Final-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__io_netty_netty_resolver_4_1_69_Final.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__io_netty_netty_resolver_4_1_69_Final.xml b/.idea/libraries/Maven__io_netty_netty_resolver_4_1_69_Final.xml
+new file mode 100644
+--- /dev/null	(date 1635270979905)
++++ b/.idea/libraries/Maven__io_netty_netty_resolver_4_1_69_Final.xml	(date 1635270979905)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: io.netty:netty-resolver:4.1.69.Final">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-resolver/4.1.69.Final/netty-resolver-4.1.69.Final.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-resolver/4.1.69.Final/netty-resolver-4.1.69.Final-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-resolver/4.1.69.Final/netty-resolver-4.1.69.Final-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__io_netty_netty_handler_proxy_4_1_69_Final.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__io_netty_netty_handler_proxy_4_1_69_Final.xml b/.idea/libraries/Maven__io_netty_netty_handler_proxy_4_1_69_Final.xml
+new file mode 100644
+--- /dev/null	(date 1635270979893)
++++ b/.idea/libraries/Maven__io_netty_netty_handler_proxy_4_1_69_Final.xml	(date 1635270979893)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: io.netty:netty-handler-proxy:4.1.69.Final">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-handler-proxy/4.1.69.Final/netty-handler-proxy-4.1.69.Final.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-handler-proxy/4.1.69.Final/netty-handler-proxy-4.1.69.Final-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-handler-proxy/4.1.69.Final/netty-handler-proxy-4.1.69.Final-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/compiler.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"CompilerConfiguration\">\r\n    <annotationProcessing>\r\n      <profile default=\"true\" name=\"Default\" enabled=\"true\" />\r\n      <profile name=\"Maven default annotation processors profile\" enabled=\"true\">\r\n        <sourceOutputDir name=\"target/generated-sources/annotations\" />\r\n        <sourceTestOutputDir name=\"target/generated-test-sources/test-annotations\" />\r\n        <outputRelativeToContentRoot value=\"true\" />\r\n        <module name=\"user-service\" />\r\n        <module name=\"game-service\" />\r\n        <module name=\"service-registry\" />\r\n        <module name=\"logging-service\" />\r\n        <module name=\"community-service\" />\r\n      </profile>\r\n    </annotationProcessing>\r\n    <bytecodeTargetLevel>\r\n      <module name=\"community-service\" target=\"11\" />\r\n      <module name=\"game-service\" target=\"11\" />\r\n      <module name=\"logging-service\" target=\"11\" />\r\n      <module name=\"service-registry\" target=\"11\" />\r\n      <module name=\"user-service\" target=\"11\" />\r\n    </bytecodeTargetLevel>\r\n  </component>\r\n  <component name=\"JavacSettings\">\r\n    <option name=\"ADDITIONAL_OPTIONS_OVERRIDE\">\r\n      <module name=\"community-service\" options=\"-parameters\" />\r\n      <module name=\"game-service\" options=\"-parameters\" />\r\n      <module name=\"logging-service\" options=\"-parameters\" />\r\n      <module name=\"service-registry\" options=\"-parameters\" />\r\n      <module name=\"user-service\" options=\"-parameters\" />\r\n    </option>\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/compiler.xml b/.idea/compiler.xml
+--- a/.idea/compiler.xml	(revision 84948ecd33687d67dbf61dafc62740346bf6a762)
++++ b/.idea/compiler.xml	(date 1635270125452)
+@@ -7,16 +7,20 @@
+         <sourceOutputDir name="target/generated-sources/annotations" />
+         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+         <outputRelativeToContentRoot value="true" />
+-        <module name="user-service" />
+         <module name="game-service" />
++        <module name="community-service" />
++        <module name="hystrix-dashboard" />
++        <module name="user-service" />
+         <module name="service-registry" />
+         <module name="logging-service" />
+-        <module name="community-service" />
++        <module name="cloud-gateway" />
+       </profile>
+     </annotationProcessing>
+     <bytecodeTargetLevel>
++      <module name="cloud-gateway" target="11" />
+       <module name="community-service" target="11" />
+       <module name="game-service" target="11" />
++      <module name="hystrix-dashboard" target="11" />
+       <module name="logging-service" target="11" />
+       <module name="service-registry" target="11" />
+       <module name="user-service" target="11" />
+@@ -24,8 +28,10 @@
+   </component>
+   <component name="JavacSettings">
+     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
++      <module name="cloud-gateway" options="-parameters" />
+       <module name="community-service" options="-parameters" />
+       <module name="game-service" options="-parameters" />
++      <module name="hystrix-dashboard" options="-parameters" />
+       <module name="logging-service" options="-parameters" />
+       <module name="service-registry" options="-parameters" />
+       <module name="user-service" options="-parameters" />
+Index: .idea/libraries/Maven__io_netty_netty_codec_4_1_69_Final.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__io_netty_netty_codec_4_1_69_Final.xml b/.idea/libraries/Maven__io_netty_netty_codec_4_1_69_Final.xml
+new file mode 100644
+--- /dev/null	(date 1635270979829)
++++ b/.idea/libraries/Maven__io_netty_netty_codec_4_1_69_Final.xml	(date 1635270979829)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: io.netty:netty-codec:4.1.69.Final">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-codec/4.1.69.Final/netty-codec-4.1.69.Final.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-codec/4.1.69.Final/netty-codec-4.1.69.Final-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-codec/4.1.69.Final/netty-codec-4.1.69.Final-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__io_netty_netty_buffer_4_1_69_Final.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__io_netty_netty_buffer_4_1_69_Final.xml b/.idea/libraries/Maven__io_netty_netty_buffer_4_1_69_Final.xml
+new file mode 100644
+--- /dev/null	(date 1635270979821)
++++ b/.idea/libraries/Maven__io_netty_netty_buffer_4_1_69_Final.xml	(date 1635270979821)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: io.netty:netty-buffer:4.1.69.Final">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-buffer/4.1.69.Final/netty-buffer-4.1.69.Final.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-buffer/4.1.69.Final/netty-buffer-4.1.69.Final-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-buffer/4.1.69.Final/netty-buffer-4.1.69.Final-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__org_xmlunit_xmlunit_core_2_8_3.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_8_3.xml b/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_8_3.xml
+new file mode 100644
+--- /dev/null	(date 1635269177904)
++++ b/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_8_3.xml	(date 1635269177904)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: org.xmlunit:xmlunit-core:2.8.3">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/xmlunit/xmlunit-core/2.8.3/xmlunit-core-2.8.3.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/org/xmlunit/xmlunit-core/2.8.3/xmlunit-core-2.8.3-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/xmlunit/xmlunit-core/2.8.3/xmlunit-core-2.8.3-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__org_springframework_spring_expression_5_3_12.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__org_springframework_spring_expression_5_3_12.xml b/.idea/libraries/Maven__org_springframework_spring_expression_5_3_12.xml
+new file mode 100644
+--- /dev/null	(date 1635269177848)
++++ b/.idea/libraries/Maven__org_springframework_spring_expression_5_3_12.xml	(date 1635269177848)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: org.springframework:spring-expression:5.3.12">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-expression/5.3.12/spring-expression-5.3.12.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-expression/5.3.12/spring-expression-5.3.12-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-expression/5.3.12/spring-expression-5.3.12-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__org_springframework_spring_core_5_3_12.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__org_springframework_spring_core_5_3_12.xml b/.idea/libraries/Maven__org_springframework_spring_core_5_3_12.xml
+new file mode 100644
+--- /dev/null	(date 1635269177840)
++++ b/.idea/libraries/Maven__org_springframework_spring_core_5_3_12.xml	(date 1635269177840)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: org.springframework:spring-core:5.3.12">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.3.12/spring-core-5.3.12.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.3.12/spring-core-5.3.12-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.3.12/spring-core-5.3.12-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__org_springframework_spring_test_5_3_12.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__org_springframework_spring_test_5_3_12.xml b/.idea/libraries/Maven__org_springframework_spring_test_5_3_12.xml
+new file mode 100644
+--- /dev/null	(date 1635269177864)
++++ b/.idea/libraries/Maven__org_springframework_spring_test_5_3_12.xml	(date 1635269177864)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: org.springframework:spring-test:5.3.12">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-test/5.3.12/spring-test-5.3.12.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-test/5.3.12/spring-test-5.3.12-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-test/5.3.12/spring-test-5.3.12-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__org_springframework_spring_jcl_5_3_12.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__org_springframework_spring_jcl_5_3_12.xml b/.idea/libraries/Maven__org_springframework_spring_jcl_5_3_12.xml
+new file mode 100644
+--- /dev/null	(date 1635269177856)
++++ b/.idea/libraries/Maven__org_springframework_spring_jcl_5_3_12.xml	(date 1635269177856)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: org.springframework:spring-jcl:5.3.12">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jcl/5.3.12/spring-jcl-5.3.12.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jcl/5.3.12/spring-jcl-5.3.12-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jcl/5.3.12/spring-jcl-5.3.12-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__org_springframework_spring_webmvc_5_3_12.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__org_springframework_spring_webmvc_5_3_12.xml b/.idea/libraries/Maven__org_springframework_spring_webmvc_5_3_12.xml
+new file mode 100644
+--- /dev/null	(date 1635269177876)
++++ b/.idea/libraries/Maven__org_springframework_spring_webmvc_5_3_12.xml	(date 1635269177876)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: org.springframework:spring-webmvc:5.3.12">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.3.12/spring-webmvc-5.3.12.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.3.12/spring-webmvc-5.3.12-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.3.12/spring-webmvc-5.3.12-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__org_springframework_spring_web_5_3_12.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__org_springframework_spring_web_5_3_12.xml b/.idea/libraries/Maven__org_springframework_spring_web_5_3_12.xml
+new file mode 100644
+--- /dev/null	(date 1635269177868)
++++ b/.idea/libraries/Maven__org_springframework_spring_web_5_3_12.xml	(date 1635269177868)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: org.springframework:spring-web:5.3.12">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.3.12/spring-web-5.3.12.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.3.12/spring-web-5.3.12-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.3.12/spring-web-5.3.12-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__org_webjars_jquery_2_1_1.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__org_webjars_jquery_2_1_1.xml b/.idea/libraries/Maven__org_webjars_jquery_2_1_1.xml
+new file mode 100644
+--- /dev/null	(date 1635269177896)
++++ b/.idea/libraries/Maven__org_webjars_jquery_2_1_1.xml	(date 1635269177896)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: org.webjars:jquery:2.1.1">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/webjars/jquery/2.1.1/jquery-2.1.1.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/org/webjars/jquery/2.1.1/jquery-2.1.1-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/webjars/jquery/2.1.1/jquery-2.1.1-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__org_webjars_d3js_3_4_11.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__org_webjars_d3js_3_4_11.xml b/.idea/libraries/Maven__org_webjars_d3js_3_4_11.xml
+new file mode 100644
+--- /dev/null	(date 1635269177888)
++++ b/.idea/libraries/Maven__org_webjars_d3js_3_4_11.xml	(date 1635269177888)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: org.webjars:d3js:3.4.11">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/webjars/d3js/3.4.11/d3js-3.4.11.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/org/webjars/d3js/3.4.11/d3js-3.4.11-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/webjars/d3js/3.4.11/d3js-3.4.11-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__org_springframework_boot_spring_boot_starter_reactor_netty_2_5_6.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_reactor_netty_2_5_6.xml b/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_reactor_netty_2_5_6.xml
+new file mode 100644
+--- /dev/null	(date 1635270980021)
++++ b/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_reactor_netty_2_5_6.xml	(date 1635270980021)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: org.springframework.boot:spring-boot-starter-reactor-netty:2.5.6">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-reactor-netty/2.5.6/spring-boot-starter-reactor-netty-2.5.6.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-reactor-netty/2.5.6/spring-boot-starter-reactor-netty-2.5.6-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-reactor-netty/2.5.6/spring-boot-starter-reactor-netty-2.5.6-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_2_0_Final.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_2_0_Final.xml b/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_2_0_Final.xml
+new file mode 100644
+--- /dev/null	(date 1635270980009)
++++ b/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_2_0_Final.xml	(date 1635270980009)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: org.hibernate.validator:hibernate-validator:6.2.0.Final">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/hibernate/validator/hibernate-validator/6.2.0.Final/hibernate-validator-6.2.0.Final.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/org/hibernate/validator/hibernate-validator/6.2.0.Final/hibernate-validator-6.2.0.Final-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/hibernate/validator/hibernate-validator/6.2.0.Final/hibernate-validator-6.2.0.Final-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__org_springframework_boot_spring_boot_starter_webflux_2_5_6.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_webflux_2_5_6.xml b/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_webflux_2_5_6.xml
+new file mode 100644
+--- /dev/null	(date 1635270980049)
++++ b/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_webflux_2_5_6.xml	(date 1635270980049)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: org.springframework.boot:spring-boot-starter-webflux:2.5.6">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-webflux/2.5.6/spring-boot-starter-webflux-2.5.6.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-webflux/2.5.6/spring-boot-starter-webflux-2.5.6-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-webflux/2.5.6/spring-boot-starter-webflux-2.5.6-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__org_springframework_boot_spring_boot_starter_validation_2_5_6.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_validation_2_5_6.xml b/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_validation_2_5_6.xml
+new file mode 100644
+--- /dev/null	(date 1635270980041)
++++ b/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_validation_2_5_6.xml	(date 1635270980041)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: org.springframework.boot:spring-boot-starter-validation:2.5.6">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-validation/2.5.6/spring-boot-starter-validation-2.5.6.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-validation/2.5.6/spring-boot-starter-validation-2.5.6-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-validation/2.5.6/spring-boot-starter-validation-2.5.6-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_gateway_3_0_4.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_gateway_3_0_4.xml b/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_gateway_3_0_4.xml
+new file mode 100644
+--- /dev/null	(date 1635270980073)
++++ b/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_gateway_3_0_4.xml	(date 1635270980073)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: org.springframework.cloud:spring-cloud-starter-gateway:3.0.4">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-starter-gateway/3.0.4/spring-cloud-starter-gateway-3.0.4.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-starter-gateway/3.0.4/spring-cloud-starter-gateway-3.0.4-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-starter-gateway/3.0.4/spring-cloud-starter-gateway-3.0.4-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__org_springframework_cloud_spring_cloud_gateway_server_3_0_4.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_gateway_server_3_0_4.xml b/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_gateway_server_3_0_4.xml
+new file mode 100644
+--- /dev/null	(date 1635270980061)
++++ b/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_gateway_server_3_0_4.xml	(date 1635270980061)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: org.springframework.cloud:spring-cloud-gateway-server:3.0.4">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-gateway-server/3.0.4/spring-cloud-gateway-server-3.0.4.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-gateway-server/3.0.4/spring-cloud-gateway-server-3.0.4-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-gateway-server/3.0.4/spring-cloud-gateway-server-3.0.4-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__org_springframework_spring_webflux_5_3_12.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__org_springframework_spring_webflux_5_3_12.xml b/.idea/libraries/Maven__org_springframework_spring_webflux_5_3_12.xml
+new file mode 100644
+--- /dev/null	(date 1635270980081)
++++ b/.idea/libraries/Maven__org_springframework_spring_webflux_5_3_12.xml	(date 1635270980081)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: org.springframework:spring-webflux:5.3.12">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webflux/5.3.12/spring-webflux-5.3.12.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webflux/5.3.12/spring-webflux-5.3.12-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webflux/5.3.12/spring-webflux-5.3.12-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__io_netty_netty_resolver_dns_native_macos_osx_x86_64_4_1_69_Final.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__io_netty_netty_resolver_dns_native_macos_osx_x86_64_4_1_69_Final.xml b/.idea/libraries/Maven__io_netty_netty_resolver_dns_native_macos_osx_x86_64_4_1_69_Final.xml
+new file mode 100644
+--- /dev/null	(date 1635270979929)
++++ b/.idea/libraries/Maven__io_netty_netty_resolver_dns_native_macos_osx_x86_64_4_1_69_Final.xml	(date 1635270979929)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: io.netty:netty-resolver-dns-native-macos:osx-x86_64:4.1.69.Final">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-resolver-dns-native-macos/4.1.69.Final/netty-resolver-dns-native-macos-4.1.69.Final-osx-x86_64.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-resolver-dns-native-macos/4.1.69.Final/netty-resolver-dns-native-macos-4.1.69.Final-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-resolver-dns-native-macos/4.1.69.Final/netty-resolver-dns-native-macos-4.1.69.Final-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__io_netty_netty_resolver_dns_4_1_69_Final.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__io_netty_netty_resolver_dns_4_1_69_Final.xml b/.idea/libraries/Maven__io_netty_netty_resolver_dns_4_1_69_Final.xml
+new file mode 100644
+--- /dev/null	(date 1635270979913)
++++ b/.idea/libraries/Maven__io_netty_netty_resolver_dns_4_1_69_Final.xml	(date 1635270979913)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: io.netty:netty-resolver-dns:4.1.69.Final">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-resolver-dns/4.1.69.Final/netty-resolver-dns-4.1.69.Final.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-resolver-dns/4.1.69.Final/netty-resolver-dns-4.1.69.Final-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-resolver-dns/4.1.69.Final/netty-resolver-dns-4.1.69.Final-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"MavenProjectsManager\">\r\n    <option name=\"originalFiles\">\r\n      <list>\r\n        <option value=\"$PROJECT_DIR$/logging-service/pom.xml\" />\r\n        <option value=\"$PROJECT_DIR$/service-registry/pom.xml\" />\r\n        <option value=\"$PROJECT_DIR$/user-service/pom.xml\" />\r\n        <option value=\"$PROJECT_DIR$/game-service/pom.xml\" />\r\n        <option value=\"$PROJECT_DIR$/community-service/pom.xml\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"ProjectRootManager\" version=\"2\" languageLevel=\"JDK_15\" project-jdk-name=\"openjdk-15\" project-jdk-type=\"JavaSDK\" />\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/misc.xml b/.idea/misc.xml
+--- a/.idea/misc.xml	(revision 84948ecd33687d67dbf61dafc62740346bf6a762)
++++ b/.idea/misc.xml	(date 1635270072158)
+@@ -8,6 +8,8 @@
+         <option value="$PROJECT_DIR$/user-service/pom.xml" />
+         <option value="$PROJECT_DIR$/game-service/pom.xml" />
+         <option value="$PROJECT_DIR$/community-service/pom.xml" />
++        <option value="$PROJECT_DIR$/hystrix-dashboard/pom.xml" />
++        <option value="$PROJECT_DIR$/cloud-gateway/pom.xml" />
+       </list>
+     </option>
+   </component>
+Index: .idea/libraries/Maven__io_netty_netty_transport_native_epoll_linux_x86_64_4_1_69_Final.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__io_netty_netty_transport_native_epoll_linux_x86_64_4_1_69_Final.xml b/.idea/libraries/Maven__io_netty_netty_transport_native_epoll_linux_x86_64_4_1_69_Final.xml
+new file mode 100644
+--- /dev/null	(date 1635270979949)
++++ b/.idea/libraries/Maven__io_netty_netty_transport_native_epoll_linux_x86_64_4_1_69_Final.xml	(date 1635270979949)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: io.netty:netty-transport-native-epoll:linux-x86_64:4.1.69.Final">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-transport-native-epoll/4.1.69.Final/netty-transport-native-epoll-4.1.69.Final-linux-x86_64.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-transport-native-epoll/4.1.69.Final/netty-transport-native-epoll-4.1.69.Final-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-transport-native-epoll/4.1.69.Final/netty-transport-native-epoll-4.1.69.Final-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__io_netty_netty_transport_4_1_69_Final.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__io_netty_netty_transport_4_1_69_Final.xml b/.idea/libraries/Maven__io_netty_netty_transport_4_1_69_Final.xml
+new file mode 100644
+--- /dev/null	(date 1635270979941)
++++ b/.idea/libraries/Maven__io_netty_netty_transport_4_1_69_Final.xml	(date 1635270979941)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: io.netty:netty-transport:4.1.69.Final">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-transport/4.1.69.Final/netty-transport-4.1.69.Final.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-transport/4.1.69.Final/netty-transport-4.1.69.Final-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-transport/4.1.69.Final/netty-transport-4.1.69.Final-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__io_projectreactor_netty_reactor_netty_core_1_0_12.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__io_projectreactor_netty_reactor_netty_core_1_0_12.xml b/.idea/libraries/Maven__io_projectreactor_netty_reactor_netty_core_1_0_12.xml
+new file mode 100644
+--- /dev/null	(date 1635270979977)
++++ b/.idea/libraries/Maven__io_projectreactor_netty_reactor_netty_core_1_0_12.xml	(date 1635270979977)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: io.projectreactor.netty:reactor-netty-core:1.0.12">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/io/projectreactor/netty/reactor-netty-core/1.0.12/reactor-netty-core-1.0.12.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/io/projectreactor/netty/reactor-netty-core/1.0.12/reactor-netty-core-1.0.12-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/io/projectreactor/netty/reactor-netty-core/1.0.12/reactor-netty-core-1.0.12-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__io_netty_netty_transport_native_unix_common_4_1_69_Final.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__io_netty_netty_transport_native_unix_common_4_1_69_Final.xml b/.idea/libraries/Maven__io_netty_netty_transport_native_unix_common_4_1_69_Final.xml
+new file mode 100644
+--- /dev/null	(date 1635270979961)
++++ b/.idea/libraries/Maven__io_netty_netty_transport_native_unix_common_4_1_69_Final.xml	(date 1635270979961)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: io.netty:netty-transport-native-unix-common:4.1.69.Final">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-transport-native-unix-common/4.1.69.Final/netty-transport-native-unix-common-4.1.69.Final.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-transport-native-unix-common/4.1.69.Final/netty-transport-native-unix-common-4.1.69.Final-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-transport-native-unix-common/4.1.69.Final/netty-transport-native-unix-common-4.1.69.Final-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__jakarta_validation_jakarta_validation_api_2_0_2.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__jakarta_validation_jakarta_validation_api_2_0_2.xml b/.idea/libraries/Maven__jakarta_validation_jakarta_validation_api_2_0_2.xml
+new file mode 100644
+--- /dev/null	(date 1635270979997)
++++ b/.idea/libraries/Maven__jakarta_validation_jakarta_validation_api_2_0_2.xml	(date 1635270979997)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: jakarta.validation:jakarta.validation-api:2.0.2">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/jakarta/validation/jakarta.validation-api/2.0.2/jakarta.validation-api-2.0.2.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/jakarta/validation/jakarta.validation-api/2.0.2/jakarta.validation-api-2.0.2-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/jakarta/validation/jakarta.validation-api/2.0.2/jakarta.validation-api-2.0.2-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__io_projectreactor_netty_reactor_netty_http_1_0_12.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__io_projectreactor_netty_reactor_netty_http_1_0_12.xml b/.idea/libraries/Maven__io_projectreactor_netty_reactor_netty_http_1_0_12.xml
+new file mode 100644
+--- /dev/null	(date 1635270979989)
++++ b/.idea/libraries/Maven__io_projectreactor_netty_reactor_netty_http_1_0_12.xml	(date 1635270979989)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: io.projectreactor.netty:reactor-netty-http:1.0.12">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/io/projectreactor/netty/reactor-netty-http/1.0.12/reactor-netty-http-1.0.12.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/io/projectreactor/netty/reactor-netty-http/1.0.12/reactor-netty-http-1.0.12-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/io/projectreactor/netty/reactor-netty-http/1.0.12/reactor-netty-http-1.0.12-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__com_netflix_hystrix_hystrix_core_1_5_18.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__com_netflix_hystrix_hystrix_core_1_5_18.xml b/.idea/libraries/Maven__com_netflix_hystrix_hystrix_core_1_5_18.xml
+new file mode 100644
+--- /dev/null	(date 1635269177488)
++++ b/.idea/libraries/Maven__com_netflix_hystrix_hystrix_core_1_5_18.xml	(date 1635269177488)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: com.netflix.hystrix:hystrix-core:1.5.18">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/com/netflix/hystrix/hystrix-core/1.5.18/hystrix-core-1.5.18.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/com/netflix/hystrix/hystrix-core/1.5.18/hystrix-core-1.5.18-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/com/netflix/hystrix/hystrix-core/1.5.18/hystrix-core-1.5.18-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__com_netflix_hystrix_hystrix_serialization_1_5_18.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__com_netflix_hystrix_hystrix_serialization_1_5_18.xml b/.idea/libraries/Maven__com_netflix_hystrix_hystrix_serialization_1_5_18.xml
+new file mode 100644
+--- /dev/null	(date 1635269177516)
++++ b/.idea/libraries/Maven__com_netflix_hystrix_hystrix_serialization_1_5_18.xml	(date 1635269177516)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: com.netflix.hystrix:hystrix-serialization:1.5.18">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/com/netflix/hystrix/hystrix-serialization/1.5.18/hystrix-serialization-1.5.18.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/com/netflix/hystrix/hystrix-serialization/1.5.18/hystrix-serialization-1.5.18-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/com/netflix/hystrix/hystrix-serialization/1.5.18/hystrix-serialization-1.5.18-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_1.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_1.xml b/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_1.xml
+new file mode 100644
+--- /dev/null	(date 1635271032020)
++++ b/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_1.xml	(date 1635271032020)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: com.google.code.findbugs:jsr305:3.0.1">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/com/google/code/findbugs/jsr305/3.0.1/jsr305-3.0.1.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/com/google/code/findbugs/jsr305/3.0.1/jsr305-3.0.1-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/com/google/code/findbugs/jsr305/3.0.1/jsr305-3.0.1-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__com_netflix_hystrix_hystrix_metrics_event_stream_1_5_18.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__com_netflix_hystrix_hystrix_metrics_event_stream_1_5_18.xml b/.idea/libraries/Maven__com_netflix_hystrix_hystrix_metrics_event_stream_1_5_18.xml
+new file mode 100644
+--- /dev/null	(date 1635269177504)
++++ b/.idea/libraries/Maven__com_netflix_hystrix_hystrix_metrics_event_stream_1_5_18.xml	(date 1635269177504)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: com.netflix.hystrix:hystrix-metrics-event-stream:1.5.18">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/com/netflix/hystrix/hystrix-metrics-event-stream/1.5.18/hystrix-metrics-event-stream-1.5.18.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/com/netflix/hystrix/hystrix-metrics-event-stream/1.5.18/hystrix-metrics-event-stream-1.5.18-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/com/netflix/hystrix/hystrix-metrics-event-stream/1.5.18/hystrix-metrics-event-stream-1.5.18-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__com_netflix_archaius_archaius_core_0_7_7.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__com_netflix_archaius_archaius_core_0_7_7.xml b/.idea/libraries/Maven__com_netflix_archaius_archaius_core_0_7_7.xml
+new file mode 100644
+--- /dev/null	(date 1635271032040)
++++ b/.idea/libraries/Maven__com_netflix_archaius_archaius_core_0_7_7.xml	(date 1635271032040)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: com.netflix.archaius:archaius-core:0.7.7">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/com/netflix/archaius/archaius-core/0.7.7/archaius-core-0.7.7.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/com/netflix/archaius/archaius-core/0.7.7/archaius-core-0.7.7-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/com/netflix/archaius/archaius-core/0.7.7/archaius-core-0.7.7-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__io_projectreactor_reactor_core_3_4_11.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__io_projectreactor_reactor_core_3_4_11.xml b/.idea/libraries/Maven__io_projectreactor_reactor_core_3_4_11.xml
+new file mode 100644
+--- /dev/null	(date 1635269177532)
++++ b/.idea/libraries/Maven__io_projectreactor_reactor_core_3_4_11.xml	(date 1635269177532)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: io.projectreactor:reactor-core:3.4.11">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/io/projectreactor/reactor-core/3.4.11/reactor-core-3.4.11.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/io/projectreactor/reactor-core/3.4.11/reactor-core-3.4.11-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/io/projectreactor/reactor-core/3.4.11/reactor-core-3.4.11-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__com_google_guava_guava_15_0.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__com_google_guava_guava_15_0.xml b/.idea/libraries/Maven__com_google_guava_guava_15_0.xml
+new file mode 100644
+--- /dev/null	(date 1635271032028)
++++ b/.idea/libraries/Maven__com_google_guava_guava_15_0.xml	(date 1635271032028)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: com.google.guava:guava:15.0">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/15.0/guava-15.0.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/15.0/guava-15.0-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/15.0/guava-15.0-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__io_micrometer_micrometer_core_1_7_5.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__io_micrometer_micrometer_core_1_7_5.xml b/.idea/libraries/Maven__io_micrometer_micrometer_core_1_7_5.xml
+new file mode 100644
+--- /dev/null	(date 1635269177524)
++++ b/.idea/libraries/Maven__io_micrometer_micrometer_core_1_7_5.xml	(date 1635269177524)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: io.micrometer:micrometer-core:1.7.5">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/io/micrometer/micrometer-core/1.7.5/micrometer-core-1.7.5.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/io/micrometer/micrometer-core/1.7.5/micrometer-core-1.7.5-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/io/micrometer/micrometer-core/1.7.5/micrometer-core-1.7.5-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__io_reactivex_rxjava_reactive_streams_1_2_1.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__io_reactivex_rxjava_reactive_streams_1_2_1.xml b/.idea/libraries/Maven__io_reactivex_rxjava_reactive_streams_1_2_1.xml
+new file mode 100644
+--- /dev/null	(date 1635271032064)
++++ b/.idea/libraries/Maven__io_reactivex_rxjava_reactive_streams_1_2_1.xml	(date 1635271032064)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: io.reactivex:rxjava-reactive-streams:1.2.1">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/io/reactivex/rxjava-reactive-streams/1.2.1/rxjava-reactive-streams-1.2.1.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/io/reactivex/rxjava-reactive-streams/1.2.1/rxjava-reactive-streams-1.2.1-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/io/reactivex/rxjava-reactive-streams/1.2.1/rxjava-reactive-streams-1.2.1-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__io_reactivex_rxjava_1_3_8.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__io_reactivex_rxjava_1_3_8.xml b/.idea/libraries/Maven__io_reactivex_rxjava_1_3_8.xml
+new file mode 100644
+--- /dev/null	(date 1635269177540)
++++ b/.idea/libraries/Maven__io_reactivex_rxjava_1_3_8.xml	(date 1635269177540)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: io.reactivex:rxjava:1.3.8">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/io/reactivex/rxjava/1.3.8/rxjava-1.3.8.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/io/reactivex/rxjava/1.3.8/rxjava-1.3.8-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/io/reactivex/rxjava/1.3.8/rxjava-1.3.8-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__com_netflix_hystrix_hystrix_javanica_1_5_18.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__com_netflix_hystrix_hystrix_javanica_1_5_18.xml b/.idea/libraries/Maven__com_netflix_hystrix_hystrix_javanica_1_5_18.xml
+new file mode 100644
+--- /dev/null	(date 1635271032052)
++++ b/.idea/libraries/Maven__com_netflix_hystrix_hystrix_javanica_1_5_18.xml	(date 1635271032052)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: com.netflix.hystrix:hystrix-javanica:1.5.18">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/com/netflix/hystrix/hystrix-javanica/1.5.18/hystrix-javanica-1.5.18.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/com/netflix/hystrix/hystrix-javanica/1.5.18/hystrix-javanica-1.5.18-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/com/netflix/hystrix/hystrix-javanica/1.5.18/hystrix-javanica-1.5.18-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_afterburner_2_12_5.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_afterburner_2_12_5.xml b/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_afterburner_2_12_5.xml
+new file mode 100644
+--- /dev/null	(date 1635269177464)
++++ b/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_afterburner_2_12_5.xml	(date 1635269177464)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: com.fasterxml.jackson.module:jackson-module-afterburner:2.12.5">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/module/jackson-module-afterburner/2.12.5/jackson-module-afterburner-2.12.5.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/module/jackson-module-afterburner/2.12.5/jackson-module-afterburner-2.12.5-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/module/jackson-module-afterburner/2.12.5/jackson-module-afterburner-2.12.5-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__com_netflix_archaius_archaius_core_0_4_1.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__com_netflix_archaius_archaius_core_0_4_1.xml b/.idea/libraries/Maven__com_netflix_archaius_archaius_core_0_4_1.xml
+new file mode 100644
+--- /dev/null	(date 1635269177480)
++++ b/.idea/libraries/Maven__com_netflix_archaius_archaius_core_0_4_1.xml	(date 1635269177480)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: com.netflix.archaius:archaius-core:0.4.1">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/com/netflix/archaius/archaius-core/0.4.1/archaius-core-0.4.1.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/com/netflix/archaius/archaius-core/0.4.1/archaius-core-0.4.1-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/com/netflix/archaius/archaius-core/0.4.1/archaius-core-0.4.1-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
