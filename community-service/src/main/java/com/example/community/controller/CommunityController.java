@@ -6,6 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
+import java.util.Optional;
 
 @RestController
 @RequestMapping("/communities")
@@ -20,7 +21,7 @@ public class CommunityController {
     }
 
     @GetMapping("/{id}")
-    public Community findCommunityById(@PathVariable("id") Long communityId) {
+    public Optional<Community> findCommunityById(@PathVariable("id") Long communityId) {
         return communityService.findCommunityById(communityId);
     }
 
@@ -29,8 +30,13 @@ public class CommunityController {
         return communityService.saveCommunity(community);
     }
 
+    @PutMapping("/updateCommunity")
+    public void updateCommunity(@RequestBody Community community) {
+        communityService.updateCommunity(community);
+    }
+
     @DeleteMapping("/{id}")
-    public Community deleteCommunity(@PathVariable("id") Long communityId) {
-        return communityService.deleteCommunity(communityId);
+    public void deleteCommunity(@PathVariable("id") Long communityId) {
+        communityService.deleteCommunity(communityId);
     }
 }
