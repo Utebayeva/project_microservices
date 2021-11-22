@@ -7,6 +7,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
+import java.util.Optional;
 
 @RestController
 @RequestMapping("/games")
@@ -22,7 +23,7 @@ public class GameController {
     }
 
     @GetMapping("/{id}")
-    public Game findGameById(@PathVariable("id") Long gameId) {
+    public Optional<Game> findGameById(@PathVariable("id") Long gameId) {
         return gameService.findGameById(gameId);
     }
 
@@ -31,8 +32,13 @@ public class GameController {
         return gameService.saveGame(game);
     }
 
+    @PutMapping("/updateGame")
+    private void updateGame(@RequestBody Game game) {
+        gameService.updateGame(game);
+    }
+
     @DeleteMapping("/{id}")
-    public Game deleteGame(@PathVariable("id") Long gameId) {
-        return gameService.deleteGame(gameId);
+    public void deleteGame(@PathVariable("id") Long gameId) {
+        gameService.deleteGame(gameId);
     }
 }
