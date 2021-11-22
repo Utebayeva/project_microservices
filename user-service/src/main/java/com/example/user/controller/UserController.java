@@ -1,12 +1,12 @@
 package com.example.user.controller;
 
-import com.example.user.VO.ResponseTemplate;
 import com.example.user.entity.User;
 import com.example.user.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
+import java.util.Optional;
 
 @RestController
 @RequestMapping("/users")
@@ -21,7 +21,7 @@ public class UserController {
     }
 
     @GetMapping("/{id}")
-    public User findUserById(@PathVariable("id") Long userId) {
+    public Optional<User> findUserById(@PathVariable("id") Long userId) {
         return userService.findUserById(userId);
     }
 
@@ -30,23 +30,13 @@ public class UserController {
         return userService.saveUser(user);
     }
 
-    @DeleteMapping("/{id}")
-    public User deleteUser(@PathVariable("id") Long userId) {
-        return userService.deleteUser(userId);
+    @PutMapping("/updateUser")
+    public void updateUser(@RequestBody User user) {
+        userService.updateUser(user);
     }
 
-    @GetMapping("/findUserGames/{id}")
-    public ResponseTemplate findUserGames(@PathVariable("id") Long userId) {
-        return userService.findUserGames(userId);
-    }
-
-    @GetMapping("/findUserCommunity/{id}")
-    public ResponseTemplate findUserCommunity(@PathVariable("id") Long userId) {
-        return userService.findUserCommunity(userId);
-    }
-
-    @GetMapping("/findLog/{id}")
-    public ResponseTemplate findLog(@PathVariable("id") Long userId) {
-        return userService.findLog(userId);
+    @DeleteMapping("/deleteUser")
+    public void deleteUser(@RequestBody Long user) {
+        userService.deleteUser(user);
     }
 }

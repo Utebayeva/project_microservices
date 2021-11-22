@@ -19,18 +19,8 @@ public class LogController {
         return logService.findAllLogs();
     }
 
-    @GetMapping("/{id}")
-    public Log findLogById(@PathVariable("id") Long logId) {
-        return logService.findLogById(logId);
-    }
-
     @PostMapping("/saveLog")
     public Log saveLog(@RequestBody Log log) {
         return logService.saveLog(log);
-    }
-
-    @DeleteMapping("/{id}")
-    public Log deleteLog(@PathVariable("id") Long logId) {
-        return logService.deleteLog(logId);
     }
 }

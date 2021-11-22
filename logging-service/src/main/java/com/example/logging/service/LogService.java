@@ -13,22 +13,11 @@ public class LogService {
     @Autowired
     private LogRepository logRepository;
 
-
     public List<Log> findAllLogs() {
         return logRepository.findAll();
     }
 
-
-    public Log findLogById(Long logId) {
-        return logRepository.findLogByLogId(logId);
-    }
-
     public Log saveLog(Log log) {
         return logRepository.save(log);
-    }
-
-
-    public Log deleteLog(Long logId) {
-        return logRepository.deleteLogByLogId(logId);
     }
 }
