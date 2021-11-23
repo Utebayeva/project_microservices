@@ -7,9 +7,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="library-service" />
+        <module name="user-service" />
         <module name="game-service" />
         <module name="community-service" />
-        <module name="user-service" />
         <module name="service-registry" />
         <module name="logging-service" />
       </profile>
@@ -19,6 +20,7 @@
       <module name="community-service" target="11" />
       <module name="game-service" target="11" />
       <module name="hystrix-dashboard" target="11" />
+      <module name="library-service" target="11" />
       <module name="logging-service" target="11" />
       <module name="service-registry" target="11" />
       <module name="user-service" target="11" />
@@ -30,6 +32,7 @@
       <module name="community-service" options="-parameters" />
       <module name="game-service" options="-parameters" />
       <module name="hystrix-dashboard" options="-parameters" />
+      <module name="library-service" options="-parameters" />
       <module name="logging-service" options="-parameters" />
       <module name="service-registry" options="-parameters" />
       <module name="user-service" options="-parameters" />
