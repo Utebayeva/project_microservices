@@ -5,33 +5,38 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6e2f7829-c592-4c98-b733-58300651404c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_afterburner_2_12_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_archaius_archaius_core_0_7_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_core_1_5_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_javanica_1_5_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_metrics_event_stream_1_5_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_serialization_1_5_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxjava_1_3_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxjava_reactive_streams_1_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_12_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hdrhistogram_HdrHistogram_2_1_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_archaius_2_0_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_core_2_0_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_hystrix_dashboard_2_0_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_ribbon_2_0_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_archaius_2_0_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_hystrix_2_0_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_hystrix_dashboard_2_0_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_d3js_3_4_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_jquery_2_1_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/dca4f03e-21e6-454b-b92d-ae951ae16151.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/dca4f03e-21e6-454b-b92d-ae951ae16151.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/dca4f03e-21e6-454b-b92d-ae951ae16151/storage_v2/_src_/database/game_store.VGrXOQ/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/dca4f03e-21e6-454b-b92d-ae951ae16151/storage_v2/_src_/database/game_store.VGrXOQ/schema/public.abK9xQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_11_2021_23_49__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_11_2021_23_49__Default_Changelist_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_11_2021_23_58__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_11_2021_23_58__Default_Changelist_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_11_2021_23_58__Default_Changelist_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_11_2021_23_58__Default_Changelist_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_27_10_2021_2_27__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_27_10_2021_2_27__Default_Changelist_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/community-service/target/classes/com/example/community/CommunityServiceApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/community-service/target/classes/com/example/community/CommunityServiceApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/community-service/target/classes/com/example/community/controller/CommunityController.class" beforeDir="false" afterPath="$PROJECT_DIR$/community-service/target/classes/com/example/community/controller/CommunityController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/community-service/target/classes/com/example/community/entity/Community.class" beforeDir="false" afterPath="$PROJECT_DIR$/community-service/target/classes/com/example/community/entity/Community.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/community-service/target/classes/com/example/community/repository/CommunityRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/community-service/target/classes/com/example/community/repository/CommunityRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/community-service/target/classes/com/example/community/service/CommunityService.class" beforeDir="false" afterPath="$PROJECT_DIR$/community-service/target/classes/com/example/community/service/CommunityService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-service/target/classes/com/example/game/GameServiceApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/game-service/target/classes/com/example/game/GameServiceApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-service/target/classes/com/example/game/controller/GameController.class" beforeDir="false" afterPath="$PROJECT_DIR$/game-service/target/classes/com/example/game/controller/GameController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-service/target/classes/com/example/game/entity/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/game-service/target/classes/com/example/game/entity/Game.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-service/target/classes/com/example/game/repository/GameRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/game-service/target/classes/com/example/game/repository/GameRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-service/target/classes/com/example/game/service/GameService.class" beforeDir="false" afterPath="$PROJECT_DIR$/game-service/target/classes/com/example/game/service/GameService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library-service/src/main/java/com/example/libraryservice/LibraryServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/library-service/src/main/java/com/example/library/LibraryServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library-service/src/main/java/com/example/libraryservice/config/SwaggerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/library-service/src/main/java/com/example/library/config/SwaggerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library-service/src/main/java/com/example/libraryservice/entity/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/library-service/src/main/java/com/example/library/entity/Library.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library-service/src/main/java/com/example/libraryservice/entity/Log.java" beforeDir="false" afterPath="$PROJECT_DIR$/library-service/src/main/java/com/example/library/entity/Log.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library-service/src/test/java/com/example/libraryservice/LibraryServiceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/library-service/src/test/java/com/example/library/LibraryServiceApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logging-service/src/main/java/com/example/logging/controller/LogController.java" beforeDir="false" afterPath="$PROJECT_DIR$/logging-service/src/main/java/com/example/logging/controller/LogController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logging-service/src/main/java/com/example/logging/service/LogService.java" beforeDir="false" afterPath="$PROJECT_DIR$/logging-service/src/main/java/com/example/logging/service/LogService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logging-service/target/classes/com/example/logging/controller/LogController.class" beforeDir="false" afterPath="$PROJECT_DIR$/logging-service/target/classes/com/example/logging/controller/LogController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logging-service/target/classes/com/example/logging/service/LogService.class" beforeDir="false" afterPath="$PROJECT_DIR$/logging-service/target/classes/com/example/logging/service/LogService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/example/user/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/example/user/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/example/user/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/example/user/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/example/user/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/example/user/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/target/classes/com/example/user/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/target/classes/com/example/user/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/target/classes/com/example/user/entity/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/target/classes/com/example/user/entity/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/target/classes/com/example/user/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/target/classes/com/example/user/service/UserService.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +46,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -69,7 +75,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/library-service" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../final-ead3" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -78,9 +84,10 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.user.entity" />
+      <recent name="com.example.game.entity" />
       <recent name="com.example.libraryservice.entity" />
       <recent name="com.example.libraryservice.config" />
-      <recent name="com.example.user.entity" />
       <recent name="com.example.logging.config" />
     </key>
   </component>
@@ -91,18 +98,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.UserServiceApplication">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Spring Boot.LibraryServiceApplication">
     <configuration name="CommunityServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="community-service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.community.CommunityServiceApplication" />
@@ -119,7 +115,7 @@
     </configuration>
     <configuration name="LibraryServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="library-service" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.libraryservice.LibraryServiceApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.library.LibraryServiceApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -188,7 +184,10 @@
       <workItem from="1636792147559" duration="1299000" />
       <workItem from="1637515589675" duration="5630000" />
       <workItem from="1637600842773" duration="322000" />
-      <workItem from="1637662839334" duration="594000" />
+      <workItem from="1637662839334" duration="958000" />
+      <workItem from="1637692186676" duration="2633000" />
+      <workItem from="1637742307818" duration="17423000" />
+      <workItem from="1637834333421" duration="18735000" />
     </task>
     <servers />
   </component>

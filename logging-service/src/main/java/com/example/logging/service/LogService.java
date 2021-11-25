@@ -17,7 +17,7 @@ public class LogService {
         return logRepository.findAll();
     }
 
-    public Log saveLog(Log log) {
-        return logRepository.save(log);
+    public void saveLog(Log log) {
+        logRepository.save(log);
     }
 }

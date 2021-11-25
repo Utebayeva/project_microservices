@@ -30,9 +30,9 @@ public class UserService {
         return userRepository.findById(userId);
     }
 
-    public User saveUser(User user) {
+    public void saveUser(User user) {
         LogRequest(1L, "POST", "Save user");
-        return userRepository.save(user);
+        userRepository.save(user);
     }
 
     public void updateUser(User user) {

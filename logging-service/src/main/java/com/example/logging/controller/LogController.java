@@ -12,7 +12,7 @@ import java.util.List;
 public class LogController {
 
     @Autowired
-    LogService logService;
+    private LogService logService;
 
     @GetMapping("")
     public List<Log> findAllLogs() {
@@ -20,7 +20,7 @@ public class LogController {
     }
 
     @PostMapping("/saveLog")
-    public Log saveLog(@RequestBody Log log) {
-        return logService.saveLog(log);
+    public void saveLog(@RequestBody Log log) {
+        logService.saveLog(log);
     }
 }
