@@ -28,8 +28,8 @@ public class GameController {
     }
 
     @PostMapping("/saveGame")
-    private Game saveGame(@RequestBody Game game) {
-        return gameService.saveGame(game);
+    private void saveGame(@RequestBody Game game) {
+        gameService.saveGame(game);
     }
 
     @PutMapping("/updateGame")

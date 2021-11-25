@@ -30,9 +30,9 @@ public class GameService {
         return gameRepository.findById(gameId);
     }
 
-    public Game saveGame(Game game) {
+    public void saveGame(Game game) {
         LogRequest(1L, "POST", "Save game");
-        return gameRepository.save(game);
+        gameRepository.save(game);
     }
 
     public void updateGame(Game game) {
