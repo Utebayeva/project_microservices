@@ -7,6 +7,7 @@ import com.example.library.entity.Log;
 import com.example.library.entity.User;
 import com.example.library.repository.LibraryRepository;
 import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
+import com.netflix.hystrix.contrib.javanica.annotation.HystrixProperty;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpEntity;
 import org.springframework.stereotype.Service;
@@ -84,7 +85,8 @@ public class LibraryService {
     }
 
     @HystrixCommand(
-            fallbackMethod = "findLibraryGamesByUserIdFallback"
+            fallbackMethod = "findLibraryGamesByUserIdFallback",
+            threadPoolKey = "findLibraryGamesByUserId"
     )
     public UserLibrary findLibraryGamesByUserId(Long userId) {
         List<Library> libraries = libraryRepository.findLibraryByUserId(userId);
@@ -110,6 +112,11 @@ public class LibraryService {
     }
 
     public UserLibrary findLibraryGamesByUserIdFallback(Long userId) {
-        return null;
+        UserLibrary userLibrary = new UserLibrary(0L, new ArrayList<>());
+        Game game = new Game(0L, "Game-service not available", 0.0, "Game-service not available");
+        userLibrary.setUserId(0L);
+        userLibrary.getGames().add(game);
+        LogRequest(1L, "GET", "Not found library");
+        return userLibrary;
     }
 }

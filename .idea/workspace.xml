@@ -5,38 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6e2f7829-c592-4c98-b733-58300651404c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/dca4f03e-21e6-454b-b92d-ae951ae16151.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/dca4f03e-21e6-454b-b92d-ae951ae16151.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/dca4f03e-21e6-454b-b92d-ae951ae16151/storage_v2/_src_/database/game_store.VGrXOQ/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/dca4f03e-21e6-454b-b92d-ae951ae16151/storage_v2/_src_/database/game_store.VGrXOQ/schema/public.abK9xQ.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_11_2021_23_49__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_11_2021_23_49__Default_Changelist_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_11_2021_23_58__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_11_2021_23_58__Default_Changelist_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_11_2021_23_58__Default_Changelist_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_11_2021_23_58__Default_Changelist_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_27_10_2021_2_27__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_27_10_2021_2_27__Default_Changelist_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/community-service/target/classes/com/example/community/CommunityServiceApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/community-service/target/classes/com/example/community/CommunityServiceApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/community-service/target/classes/com/example/community/controller/CommunityController.class" beforeDir="false" afterPath="$PROJECT_DIR$/community-service/target/classes/com/example/community/controller/CommunityController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/community-service/target/classes/com/example/community/entity/Community.class" beforeDir="false" afterPath="$PROJECT_DIR$/community-service/target/classes/com/example/community/entity/Community.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/community-service/target/classes/com/example/community/repository/CommunityRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/community-service/target/classes/com/example/community/repository/CommunityRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/community-service/target/classes/com/example/community/service/CommunityService.class" beforeDir="false" afterPath="$PROJECT_DIR$/community-service/target/classes/com/example/community/service/CommunityService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game-service/target/classes/com/example/game/GameServiceApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/game-service/target/classes/com/example/game/GameServiceApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game-service/target/classes/com/example/game/controller/GameController.class" beforeDir="false" afterPath="$PROJECT_DIR$/game-service/target/classes/com/example/game/controller/GameController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game-service/target/classes/com/example/game/entity/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/game-service/target/classes/com/example/game/entity/Game.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game-service/target/classes/com/example/game/repository/GameRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/game-service/target/classes/com/example/game/repository/GameRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game-service/target/classes/com/example/game/service/GameService.class" beforeDir="false" afterPath="$PROJECT_DIR$/game-service/target/classes/com/example/game/service/GameService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-service/src/main/java/com/example/libraryservice/LibraryServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/library-service/src/main/java/com/example/library/LibraryServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-service/src/main/java/com/example/libraryservice/config/SwaggerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/library-service/src/main/java/com/example/library/config/SwaggerConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-service/src/main/java/com/example/libraryservice/entity/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/library-service/src/main/java/com/example/library/entity/Library.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-service/src/main/java/com/example/libraryservice/entity/Log.java" beforeDir="false" afterPath="$PROJECT_DIR$/library-service/src/main/java/com/example/library/entity/Log.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-service/src/test/java/com/example/libraryservice/LibraryServiceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/library-service/src/test/java/com/example/library/LibraryServiceApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logging-service/src/main/java/com/example/logging/controller/LogController.java" beforeDir="false" afterPath="$PROJECT_DIR$/logging-service/src/main/java/com/example/logging/controller/LogController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logging-service/src/main/java/com/example/logging/service/LogService.java" beforeDir="false" afterPath="$PROJECT_DIR$/logging-service/src/main/java/com/example/logging/service/LogService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logging-service/target/classes/com/example/logging/controller/LogController.class" beforeDir="false" afterPath="$PROJECT_DIR$/logging-service/target/classes/com/example/logging/controller/LogController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logging-service/target/classes/com/example/logging/service/LogService.class" beforeDir="false" afterPath="$PROJECT_DIR$/logging-service/target/classes/com/example/logging/service/LogService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/example/user/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/example/user/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/example/user/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/example/user/entity/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/example/user/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/example/user/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/target/classes/com/example/user/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/target/classes/com/example/user/controller/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/target/classes/com/example/user/entity/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/target/classes/com/example/user/entity/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/target/classes/com/example/user/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/target/classes/com/example/user/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library-service/src/main/java/com/example/library/LibraryServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/library-service/src/main/java/com/example/library/LibraryServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library-service/src/main/java/com/example/library/service/LibraryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/library-service/src/main/java/com/example/library/service/LibraryService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -188,6 +159,7 @@
       <workItem from="1637692186676" duration="2633000" />
       <workItem from="1637742307818" duration="17423000" />
       <workItem from="1637834333421" duration="18735000" />
+      <workItem from="1637857599383" duration="3858000" />
     </task>
     <servers />
   </component>
