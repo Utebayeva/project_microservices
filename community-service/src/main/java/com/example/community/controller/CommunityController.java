@@ -13,7 +13,7 @@ import java.util.Optional;
 public class CommunityController {
 
     @Autowired
-    CommunityService communityService;
+    private CommunityService communityService;
 
     @GetMapping("")
     public List<Community> findAllCommunities() {
@@ -26,8 +26,8 @@ public class CommunityController {
     }
 
     @PostMapping("/saveCommunity")
-    public Community saveCommunity(@RequestBody Community community) {
-        return communityService.saveCommunity(community);
+    public void saveCommunity(@RequestBody Community community) {
+        communityService.saveCommunity(community);
     }
 
     @PutMapping("/updateCommunity")

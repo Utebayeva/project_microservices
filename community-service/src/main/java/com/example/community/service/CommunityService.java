@@ -15,7 +15,7 @@ import java.util.Optional;
 public class CommunityService {
 
     @Autowired
-    CommunityRepository communityRepository;
+    private CommunityRepository communityRepository;
 
     @Autowired
     private RestTemplate restTemplate;
@@ -30,9 +30,9 @@ public class CommunityService {
         return communityRepository.findById(communityId);
     }
 
-    public Community saveCommunity(Community community) {
+    public void saveCommunity(Community community) {
         LogRequest(1L, "POST", "Save community");
-        return communityRepository.save(community);
+        communityRepository.save(community);
     }
 
     public void updateCommunity(Community community) {
