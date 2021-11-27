@@ -1,0 +1,29 @@
+<changelist name="Uncommitted_changes_before_Update_at_27_11_2021_19_12_[Default_Changelist]" date="1638018742627" recycled="false" toDelete="true">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_27_11_2021_19_12_[Default_Changelist]/shelved.patch" />
+  <option name="DESCRIPTION" value="Uncommitted changes before Update at 27.11.2021 19:12 [Default Changelist]" />
+  <binary>
+    <option name="BEFORE_PATH" value="community-service/target/classes/com/example/community/CommunityServiceApplication.class" />
+    <option name="AFTER_PATH" value="community-service/target/classes/com/example/community/CommunityServiceApplication.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_27_11_2021_19_12_[Default_Changelist]/CommunityServiceApplication.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="game-service/target/classes/com/example/game/GameServiceApplication.class" />
+    <option name="AFTER_PATH" value="game-service/target/classes/com/example/game/GameServiceApplication.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_27_11_2021_19_12_[Default_Changelist]/GameServiceApplication.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="logging-service/target/classes/com/example/logging/LoggingServiceApplication.class" />
+    <option name="AFTER_PATH" value="logging-service/target/classes/com/example/logging/LoggingServiceApplication.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_27_11_2021_19_12_[Default_Changelist]/LoggingServiceApplication.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="diagram.jpg" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="eureka.jpg" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+</changelist>

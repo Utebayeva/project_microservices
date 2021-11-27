@@ -9,6 +9,7 @@
         <option value="$PROJECT_DIR$/game-service/pom.xml" />
         <option value="$PROJECT_DIR$/community-service/pom.xml" />
         <option value="$PROJECT_DIR$/library-service/pom.xml" />
+        <option value="$PROJECT_DIR$/zuul-service/pom.xml" />
       </list>
     </option>
   </component>
