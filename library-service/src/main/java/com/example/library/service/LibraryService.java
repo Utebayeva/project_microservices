@@ -87,6 +87,10 @@ public class LibraryService {
     @HystrixCommand(
             fallbackMethod = "findLibraryGamesByUserIdFallback",
             threadPoolKey = "findLibraryGamesByUserId"
+//            threadPoolProperties = {
+//                    @HystrixProperty(name = "core$size", value="100"),
+//                    @HystrixProperty(name = "maxQueueSize", value = "50"),
+//            }
     )
     public UserLibrary findLibraryGamesByUserId(Long userId) {
         List<Library> libraries = libraryRepository.findLibraryByUserId(userId);
