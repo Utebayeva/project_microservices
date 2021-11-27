@@ -21,7 +21,7 @@ Our project is a regular online game store selling keys for games in steam, epic
   6) Registration and authorization service
  
 ## Microservices's diagram:
-![Image alt](diagram-screen.jpg)
+![Image alt](diagram.jpg)
 
 ## Eureka:
-![Image alt](eureka-screen.jpg)
+![Image alt](eureka.jpg)
