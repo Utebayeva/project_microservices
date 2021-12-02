@@ -24,4 +24,4 @@ Our project is a regular online game store selling keys for games in steam, epic
 ![Image alt](diagram-screen.jpg)
 
 ## Eureka:
-![Image alt](eureka-screen.jpg)
+![Image alt](eureka.jpg)
