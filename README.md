@@ -12,13 +12,12 @@ Our project is a regular online game store selling keys for games in steam, epic
  
 ## Microservices:
 ### Karina:
-  1) Service of gaming communities
-  2) Service for creating games
-  3) Order management service
+  1) Community-service
+  2) Game-service
+  3) Logging-service
 ### Alisher:
-  4) Service logging
-  5) Service of work with users
-  6) Registration and authorization service
+  4) User-service
+  5) Library-service
  
 ## Microservices's diagram:
 ![Image alt](diagram-screen.jpg)
