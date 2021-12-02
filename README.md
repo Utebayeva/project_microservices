@@ -20,7 +20,7 @@ Our project is a regular online game store selling keys for games in steam, epic
   5) Library-service
  
 ## Microservices's diagram:
-![Image alt](diagram-screen.jpg)
+![Image alt](diagram.jpg)
 
 ## Eureka:
 ![Image alt](eureka.jpg)
