@@ -3,6 +3,7 @@ package com.example.community.service;
 import com.example.community.entity.Community;
 import com.example.community.entity.Log;
 import com.example.community.repository.CommunityRepository;
+import org.springframework.amqp.core.AmqpTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpEntity;
 import org.springframework.stereotype.Service;
@@ -19,6 +20,9 @@ public class CommunityService {
 
     @Autowired
     private RestTemplate restTemplate;
+
+    @Autowired
+    private AmqpTemplate amqpTemplate;
 
     public List<Community> findAllCommunities() {
         LogRequest(1L, "GET", "Find all communities");
@@ -46,6 +50,7 @@ public class CommunityService {
     }
 
     private void LogRequest(Long userId, String action, String description) {
+        amqpTemplate.convertAndSend("queue1", "Log from community-service");
         Log log = new Log(userId, "Community-service", action, description);
         HttpEntity<Log> request = new HttpEntity<>(log);
         restTemplate.postForObject("http://logging-service/logs/saveLog", request, Log.class);
