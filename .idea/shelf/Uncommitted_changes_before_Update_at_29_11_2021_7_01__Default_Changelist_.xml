@@ -1,0 +1,14 @@
+<changelist name="Uncommitted_changes_before_Update_at_29_11_2021_7_01_[Default_Changelist]" date="1638147672187" recycled="false" toDelete="true">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_29_11_2021_7_01_[Default_Changelist]/shelved.patch" />
+  <option name="DESCRIPTION" value="Uncommitted changes before Update at 29.11.2021 7:01 [Default Changelist]" />
+  <binary>
+    <option name="BEFORE_PATH" value="library-service/target/classes/com/example/library/LibraryServiceApplication.class" />
+    <option name="AFTER_PATH" value="library-service/target/classes/com/example/library/LibraryServiceApplication.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_29_11_2021_7_01_[Default_Changelist]/LibraryServiceApplication.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="library-service/target/classes/com/example/library/service/LibraryService.class" />
+    <option name="AFTER_PATH" value="library-service/target/classes/com/example/library/service/LibraryService.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_29_11_2021_7_01_[Default_Changelist]/LibraryService.class" />
+  </binary>
+</changelist>

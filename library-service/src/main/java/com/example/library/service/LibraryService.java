@@ -7,7 +7,7 @@ import com.example.library.entity.Log;
 import com.example.library.entity.User;
 import com.example.library.repository.LibraryRepository;
 import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
-import com.netflix.hystrix.contrib.javanica.annotation.HystrixProperty;
+import org.springframework.amqp.core.AmqpTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpEntity;
 import org.springframework.stereotype.Service;
@@ -24,6 +24,9 @@ public class LibraryService {
 
     @Autowired
     private RestTemplate restTemplate;
+
+    @Autowired
+    private AmqpTemplate amqpTemplate;
 
     public List<Library> findAllLibraries() {
         LogRequest(1L, "GET", "Find all libraries");
@@ -112,6 +115,7 @@ public class LibraryService {
     }
 
     public UserLibrary findLibraryGamesByUserIdFallback(Long userId) {
+        amqpTemplate.convertAndSend("queue1", "Log from community-service");
         UserLibrary userLibrary = new UserLibrary(0L, new ArrayList<>());
         Game game = new Game(0L, "Game-service not available", 0.0, "Game-service not available");
         userLibrary.setUserId(0L);
