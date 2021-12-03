@@ -1,12 +1,12 @@
 package com.example.community.controller;
 
 import com.example.community.entity.Community;
+import com.example.community.entity.DTO.UserCommunity;
 import com.example.community.service.CommunityService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
-import java.util.Optional;
 
 @RestController
 @RequestMapping("/communities")
@@ -21,8 +21,8 @@ public class CommunityController {
     }
 
     @GetMapping("/{id}")
-    public Optional<Community> findCommunityById(@PathVariable("id") Long communityId) {
-        return communityService.findCommunityById(communityId);
+    public List<Community> findCommunityByGameId(@PathVariable("id") Long gameId) {
+        return communityService.findCommunityByGameId(gameId);
     }
 
     @PostMapping("/saveCommunity")
@@ -36,7 +36,17 @@ public class CommunityController {
     }
 
     @DeleteMapping("/{id}")
-    public void deleteCommunity(@PathVariable("id") Long communityId) {
-        communityService.deleteCommunity(communityId);
+    public void deleteCommunityByGameId(@PathVariable("id") Long gameId) {
+        communityService.deleteCommunityByGameId(gameId);
+    }
+
+    @PostMapping("/addGame")
+    public void addUserToCommunity(@RequestBody Community community) {
+        communityService.addUserToCommunity(community);
+    }
+
+    @GetMapping("/findCommunityUsersByGameId/{id}")
+    public UserCommunity findCommunityUsersByGameId(@PathVariable("id") Long gameId) {
+        return communityService.findCommunityUsersByGameId(gameId);
     }
 }

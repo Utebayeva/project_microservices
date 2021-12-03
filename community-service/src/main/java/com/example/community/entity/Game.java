@@ -4,20 +4,13 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import javax.persistence.*;
-
-@Entity
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-@Table(name = "communities")
-public class Community {
+public class Game {
 
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long communityId;
-    private Long userId;
     private Long gameId;
-    private String name;
+    private String title;
+    private Double price;
     private String description;
 }
