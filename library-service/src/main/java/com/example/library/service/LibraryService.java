@@ -60,6 +60,7 @@ public class LibraryService {
     }
 
     private void LogRequest(Long userId, String action, String description) {
+        amqpTemplate.convertAndSend("queue1", "Log from community-service");
         Log log = new Log(userId, "Library-service", action, description);
         HttpEntity<Log> request = new HttpEntity<>(log);
         restTemplate.postForObject("http://logging-service/logs/saveLog", request, Log.class);
@@ -115,7 +116,6 @@ public class LibraryService {
     }
 
     public UserLibrary findLibraryGamesByUserIdFallback(Long userId) {
-        amqpTemplate.convertAndSend("queue1", "Log from community-service");
         UserLibrary userLibrary = new UserLibrary(0L, new ArrayList<>());
         Game game = new Game(0L, "Game-service not available", 0.0, "Game-service not available");
         userLibrary.setUserId(0L);
