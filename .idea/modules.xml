@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/community-service/community-service.iml" filepath="$PROJECT_DIR$/community-service/community-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/ead4-project.iml" filepath="$PROJECT_DIR$/.idea/ead4-project.iml" />
+      <module fileurl="file://$PROJECT_DIR$/frontend-service/frontend-service.iml" filepath="$PROJECT_DIR$/frontend-service/frontend-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/game-service/game-service.iml" filepath="$PROJECT_DIR$/game-service/game-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/library-service/library-service.iml" filepath="$PROJECT_DIR$/library-service/library-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/logging-service/logging-service.iml" filepath="$PROJECT_DIR$/logging-service/logging-service.iml" />

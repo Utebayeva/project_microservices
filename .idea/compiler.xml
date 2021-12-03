@@ -12,6 +12,7 @@
         <module name="library-service" />
         <module name="user-service" />
         <module name="zuul-service" />
+        <module name="frontend-service" />
         <module name="service-registry" />
         <module name="logging-service" />
       </profile>
@@ -19,6 +20,7 @@
     <bytecodeTargetLevel>
       <module name="cloud-gateway" target="11" />
       <module name="community-service" target="11" />
+      <module name="frontend-service" target="1.5" />
       <module name="game-service" target="11" />
       <module name="hystrix-dashboard" target="11" />
       <module name="library-service" target="11" />
