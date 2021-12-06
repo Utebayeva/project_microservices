@@ -17,5 +17,7 @@ public class User {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long userId;
     private String nickname;
+    private String password;
+    private String email;
     private Double wallet;
 }

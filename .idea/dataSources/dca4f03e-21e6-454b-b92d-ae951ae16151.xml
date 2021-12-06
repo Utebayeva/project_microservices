@@ -784,7 +784,7 @@ false YEKT
 false Z
 false Zulu
 </TimeZones>
-      <StartupTime>1636902915</StartupTime>
+      <StartupTime>1638422512</StartupTime>
     </root>
     <database id="2" parent="1" name="dbtest">
       <ObjectId>16394</ObjectId>
@@ -793,13 +793,13 @@ false Zulu
     <database id="3" parent="1" name="game_store">
       <ObjectId>16404</ObjectId>
       <Owner>postgres</Owner>
-      <IntrospectionStateNumber>1116</IntrospectionStateNumber>
+      <IntrospectionStateNumber>1392</IntrospectionStateNumber>
       <Current>1</Current>
-      <Relations>sequence|table|16437|16438|1
-sequence|table|16445|16446|1
-sequence|table|16453|16454|1
-sequence|table|16475|16476|1
-sequence|table|16497|16498|1
+      <Relations>sequence|table|16503|16504|1
+sequence|table|16511|16512|1
+sequence|table|16517|16518|1
+sequence|table|16525|16526|1
+sequence|table|16533|16534|1
 </Relations>
     </database>
     <database id="4" parent="1" name="postgres">
@@ -884,7 +884,7 @@ UC/10
 </Acl>
       <StateNumber>527</StateNumber>
       <Owner>postgres</Owner>
-      <IntrospectionStateNumber>1117</IntrospectionStateNumber>
+      <IntrospectionStateNumber>1393</IntrospectionStateNumber>
       <Current>1</Current>
     </schema>
     <extension id="22" parent="3" name="plpgsql">
@@ -991,89 +991,95 @@ UC/10
       <DataType>bigint|0s</DataType>
     </sequence>
     <sequence id="35" parent="21" name="communities_community_id_seq">
-      <ObjectId>16437</ObjectId>
+      <ObjectId>16533</ObjectId>
       <Owner>postgres</Owner>
-      <StateNumber>754</StateNumber>
+      <StateNumber>1391</StateNumber>
       <DataType>bigint|0s</DataType>
     </sequence>
     <sequence id="36" parent="21" name="games_game_id_seq">
-      <ObjectId>16445</ObjectId>
+      <ObjectId>16517</ObjectId>
       <Owner>postgres</Owner>
-      <StateNumber>755</StateNumber>
+      <StateNumber>1389</StateNumber>
       <DataType>bigint|0s</DataType>
     </sequence>
     <sequence id="37" parent="21" name="libraries_library_id_seq">
-      <ObjectId>16497</ObjectId>
+      <ObjectId>16511</ObjectId>
       <Owner>postgres</Owner>
-      <StateNumber>1097</StateNumber>
+      <StateNumber>1388</StateNumber>
       <DataType>bigint|0s</DataType>
     </sequence>
     <sequence id="38" parent="21" name="logs_log_id_seq">
-      <ObjectId>16453</ObjectId>
+      <ObjectId>16525</ObjectId>
       <Owner>postgres</Owner>
-      <StateNumber>756</StateNumber>
+      <StateNumber>1390</StateNumber>
       <DataType>bigint|0s</DataType>
     </sequence>
     <sequence id="39" parent="21" name="users_user_id_seq">
-      <ObjectId>16475</ObjectId>
+      <ObjectId>16503</ObjectId>
       <Owner>postgres</Owner>
-      <StateNumber>876</StateNumber>
+      <StateNumber>1387</StateNumber>
       <DataType>bigint|0s</DataType>
     </sequence>
     <table id="40" parent="21" name="communities">
-      <ObjectId>16438</ObjectId>
+      <ObjectId>16534</ObjectId>
       <Owner>postgres</Owner>
-      <StateNumber>754</StateNumber>
+      <StateNumber>1391</StateNumber>
     </table>
     <table id="41" parent="21" name="games">
-      <ObjectId>16446</ObjectId>
+      <ObjectId>16518</ObjectId>
       <Owner>postgres</Owner>
-      <StateNumber>755</StateNumber>
+      <StateNumber>1389</StateNumber>
     </table>
     <table id="42" parent="21" name="libraries">
-      <ObjectId>16498</ObjectId>
+      <ObjectId>16512</ObjectId>
       <Owner>postgres</Owner>
-      <StateNumber>1097</StateNumber>
+      <StateNumber>1388</StateNumber>
     </table>
     <table id="43" parent="21" name="logs">
-      <ObjectId>16454</ObjectId>
+      <ObjectId>16526</ObjectId>
       <Owner>postgres</Owner>
-      <StateNumber>756</StateNumber>
+      <StateNumber>1390</StateNumber>
     </table>
     <table id="44" parent="21" name="users">
-      <ObjectId>16476</ObjectId>
+      <ObjectId>16504</ObjectId>
       <Owner>postgres</Owner>
-      <StateNumber>876</StateNumber>
+      <StateNumber>1387</StateNumber>
     </table>
     <column id="45" parent="40" name="community_id">
       <Position>1</Position>
       <DataType>bigint|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>754</StateNumber>
+      <StateNumber>1391</StateNumber>
       <TypeId>20</TypeId>
       <IdentityKind>by-default</IdentityKind>
     </column>
     <column id="46" parent="40" name="description">
       <Position>2</Position>
       <DataType>varchar(255)|0s</DataType>
-      <StateNumber>754</StateNumber>
+      <StateNumber>1391</StateNumber>
       <TypeId>1043</TypeId>
     </column>
-    <column id="47" parent="40" name="name">
+    <column id="47" parent="40" name="game_id">
       <Position>3</Position>
-      <DataType>varchar(255)|0s</DataType>
-      <StateNumber>754</StateNumber>
-      <TypeId>1043</TypeId>
-    </column>
-    <column id="48" parent="40" name="user_id">
-      <Position>4</Position>
       <DataType>bigint|0s</DataType>
-      <StateNumber>754</StateNumber>
+      <StateNumber>1391</StateNumber>
       <TypeId>20</TypeId>
     </column>
-    <index id="49" parent="40" name="communities_pkey">
-      <ObjectId>16443</ObjectId>
-      <StateNumber>754</StateNumber>
+    <column id="48" parent="40" name="name">
+      <Position>4</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <StateNumber>1391</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="49" parent="40" name="user_id">
+      <Position>5</Position>
+      <DataType>bigint|0s</DataType>
+      <StateNumber>1391</StateNumber>
+      <TypeId>20</TypeId>
+    </column>
+    <index id="50" parent="40" name="communities_pkey">
+      <ObjectId>16539</ObjectId>
+      <StateNumber>1391</StateNumber>
       <ColNames>community_id</ColNames>
       <Unique>1</Unique>
       <Primary>1</Primary>
@@ -1081,48 +1087,42 @@ UC/10
       <CollationIds>0</CollationIds>
       <ClassIds>3124</ClassIds>
     </index>
-    <key id="50" parent="40" name="communities_pkey">
-      <ObjectId>16444</ObjectId>
-      <StateNumber>754</StateNumber>
+    <key id="51" parent="40" name="communities_pkey">
+      <ObjectId>16540</ObjectId>
+      <StateNumber>1391</StateNumber>
       <ColNames>community_id</ColNames>
       <Primary>1</Primary>
       <UnderlyingIndexName>communities_pkey</UnderlyingIndexName>
     </key>
-    <column id="51" parent="41" name="game_id">
+    <column id="52" parent="41" name="game_id">
       <Position>1</Position>
       <DataType>bigint|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>755</StateNumber>
+      <StateNumber>1389</StateNumber>
       <TypeId>20</TypeId>
       <IdentityKind>by-default</IdentityKind>
     </column>
-    <column id="52" parent="41" name="description">
+    <column id="53" parent="41" name="description">
       <Position>2</Position>
       <DataType>varchar(255)|0s</DataType>
-      <StateNumber>755</StateNumber>
+      <StateNumber>1389</StateNumber>
       <TypeId>1043</TypeId>
     </column>
-    <column id="53" parent="41" name="price">
+    <column id="54" parent="41" name="price">
       <Position>3</Position>
       <DataType>double precision|0s</DataType>
-      <StateNumber>755</StateNumber>
+      <StateNumber>1389</StateNumber>
       <TypeId>701</TypeId>
     </column>
-    <column id="54" parent="41" name="title">
+    <column id="55" parent="41" name="title">
       <Position>4</Position>
       <DataType>varchar(255)|0s</DataType>
-      <StateNumber>755</StateNumber>
+      <StateNumber>1389</StateNumber>
       <TypeId>1043</TypeId>
     </column>
-    <column id="55" parent="41" name="user_id">
-      <Position>5</Position>
-      <DataType>bigint|0s</DataType>
-      <StateNumber>755</StateNumber>
-      <TypeId>20</TypeId>
-    </column>
     <index id="56" parent="41" name="games_pkey">
-      <ObjectId>16451</ObjectId>
-      <StateNumber>755</StateNumber>
+      <ObjectId>16523</ObjectId>
+      <StateNumber>1389</StateNumber>
       <ColNames>game_id</ColNames>
       <Unique>1</Unique>
       <Primary>1</Primary>
@@ -1131,8 +1131,8 @@ UC/10
       <ClassIds>3124</ClassIds>
     </index>
     <key id="57" parent="41" name="games_pkey">
-      <ObjectId>16452</ObjectId>
-      <StateNumber>755</StateNumber>
+      <ObjectId>16524</ObjectId>
+      <StateNumber>1389</StateNumber>
       <ColNames>game_id</ColNames>
       <Primary>1</Primary>
       <UnderlyingIndexName>games_pkey</UnderlyingIndexName>
@@ -1141,25 +1141,25 @@ UC/10
       <Position>1</Position>
       <DataType>bigint|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>1097</StateNumber>
+      <StateNumber>1388</StateNumber>
       <TypeId>20</TypeId>
       <IdentityKind>by-default</IdentityKind>
     </column>
     <column id="59" parent="42" name="game_id">
       <Position>2</Position>
       <DataType>bigint|0s</DataType>
-      <StateNumber>1097</StateNumber>
+      <StateNumber>1388</StateNumber>
       <TypeId>20</TypeId>
     </column>
     <column id="60" parent="42" name="user_id">
       <Position>3</Position>
       <DataType>bigint|0s</DataType>
-      <StateNumber>1097</StateNumber>
+      <StateNumber>1388</StateNumber>
       <TypeId>20</TypeId>
     </column>
     <index id="61" parent="42" name="libraries_pkey">
-      <ObjectId>16501</ObjectId>
-      <StateNumber>1097</StateNumber>
+      <ObjectId>16515</ObjectId>
+      <StateNumber>1388</StateNumber>
       <ColNames>library_id</ColNames>
       <Unique>1</Unique>
       <Primary>1</Primary>
@@ -1168,8 +1168,8 @@ UC/10
       <ClassIds>3124</ClassIds>
     </index>
     <key id="62" parent="42" name="libraries_pkey">
-      <ObjectId>16502</ObjectId>
-      <StateNumber>1097</StateNumber>
+      <ObjectId>16516</ObjectId>
+      <StateNumber>1388</StateNumber>
       <ColNames>library_id</ColNames>
       <Primary>1</Primary>
       <UnderlyingIndexName>libraries_pkey</UnderlyingIndexName>
@@ -1178,37 +1178,37 @@ UC/10
       <Position>1</Position>
       <DataType>bigint|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>756</StateNumber>
+      <StateNumber>1390</StateNumber>
       <TypeId>20</TypeId>
       <IdentityKind>by-default</IdentityKind>
     </column>
     <column id="64" parent="43" name="action">
       <Position>2</Position>
       <DataType>varchar(255)|0s</DataType>
-      <StateNumber>756</StateNumber>
+      <StateNumber>1390</StateNumber>
       <TypeId>1043</TypeId>
     </column>
     <column id="65" parent="43" name="description">
       <Position>3</Position>
       <DataType>varchar(255)|0s</DataType>
-      <StateNumber>756</StateNumber>
+      <StateNumber>1390</StateNumber>
       <TypeId>1043</TypeId>
     </column>
     <column id="66" parent="43" name="service">
       <Position>4</Position>
       <DataType>varchar(255)|0s</DataType>
-      <StateNumber>756</StateNumber>
+      <StateNumber>1390</StateNumber>
       <TypeId>1043</TypeId>
     </column>
     <column id="67" parent="43" name="user_id">
       <Position>5</Position>
       <DataType>bigint|0s</DataType>
-      <StateNumber>756</StateNumber>
+      <StateNumber>1390</StateNumber>
       <TypeId>20</TypeId>
     </column>
     <index id="68" parent="43" name="logs_pkey">
-      <ObjectId>16459</ObjectId>
-      <StateNumber>756</StateNumber>
+      <ObjectId>16531</ObjectId>
+      <StateNumber>1390</StateNumber>
       <ColNames>log_id</ColNames>
       <Unique>1</Unique>
       <Primary>1</Primary>
@@ -1217,8 +1217,8 @@ UC/10
       <ClassIds>3124</ClassIds>
     </index>
     <key id="69" parent="43" name="logs_pkey">
-      <ObjectId>16460</ObjectId>
-      <StateNumber>756</StateNumber>
+      <ObjectId>16532</ObjectId>
+      <StateNumber>1390</StateNumber>
       <ColNames>log_id</ColNames>
       <Primary>1</Primary>
       <UnderlyingIndexName>logs_pkey</UnderlyingIndexName>
@@ -1227,25 +1227,37 @@ UC/10
       <Position>1</Position>
       <DataType>bigint|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>876</StateNumber>
+      <StateNumber>1387</StateNumber>
       <TypeId>20</TypeId>
       <IdentityKind>by-default</IdentityKind>
     </column>
-    <column id="71" parent="44" name="nickname">
+    <column id="71" parent="44" name="email">
       <Position>2</Position>
       <DataType>varchar(255)|0s</DataType>
-      <StateNumber>876</StateNumber>
+      <StateNumber>1387</StateNumber>
       <TypeId>1043</TypeId>
     </column>
-    <column id="72" parent="44" name="wallet">
+    <column id="72" parent="44" name="nickname">
       <Position>3</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <StateNumber>1387</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="73" parent="44" name="password">
+      <Position>4</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <StateNumber>1387</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="74" parent="44" name="wallet">
+      <Position>5</Position>
       <DataType>double precision|0s</DataType>
-      <StateNumber>876</StateNumber>
+      <StateNumber>1387</StateNumber>
       <TypeId>701</TypeId>
     </column>
-    <index id="73" parent="44" name="users_pkey">
-      <ObjectId>16479</ObjectId>
-      <StateNumber>876</StateNumber>
+    <index id="75" parent="44" name="users_pkey">
+      <ObjectId>16509</ObjectId>
+      <StateNumber>1387</StateNumber>
       <ColNames>user_id</ColNames>
       <Unique>1</Unique>
       <Primary>1</Primary>
@@ -1253,9 +1265,9 @@ UC/10
       <CollationIds>0</CollationIds>
       <ClassIds>3124</ClassIds>
     </index>
-    <key id="74" parent="44" name="users_pkey">
-      <ObjectId>16480</ObjectId>
-      <StateNumber>876</StateNumber>
+    <key id="76" parent="44" name="users_pkey">
+      <ObjectId>16510</ObjectId>
+      <StateNumber>1387</StateNumber>
       <ColNames>user_id</ColNames>
       <Primary>1</Primary>
       <UnderlyingIndexName>users_pkey</UnderlyingIndexName>

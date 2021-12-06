@@ -34,6 +34,11 @@ public class UserService {
         return userRepository.findById(userId);
     }
 
+    public User findUserByNickname(String nickname) {
+        LogRequest(1L, "GET", "Find user by nickname");
+        return userRepository.findUserByNickname(nickname);
+    }
+
     public void saveUser(User user) {
         LogRequest(1L, "POST", "Save user");
         userRepository.save(user);

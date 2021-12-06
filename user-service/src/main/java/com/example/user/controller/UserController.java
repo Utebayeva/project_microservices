@@ -1,10 +1,12 @@
 package com.example.user.controller;
 
+import com.example.user.entity.DTO.UsersArrayList;
 import com.example.user.entity.User;
 import com.example.user.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
@@ -25,6 +27,11 @@ public class UserController {
         return userService.findUserById(userId);
     }
 
+    @GetMapping("/nickname/{nickname}")
+    public User findByNickname(@PathVariable String nickname) {
+        return userService.findUserByNickname(nickname);
+    }
+
     @PostMapping("/saveUser")
     public void saveUser(@RequestBody User user) {
         userService.saveUser(user);
@@ -38,5 +45,12 @@ public class UserController {
     @DeleteMapping("/{id}")
     public void deleteUser(@PathVariable("id") Long userId){
         userService.deleteUser(userId);
+    }
+
+    @GetMapping("/usersArrayList")
+    public UsersArrayList GetUsersDto() {
+        ArrayList<User> users = (ArrayList<User>) userService.findAllUsers();
+        UsersArrayList usersArrayList = new UsersArrayList(users);
+        return usersArrayList;
     }
 }

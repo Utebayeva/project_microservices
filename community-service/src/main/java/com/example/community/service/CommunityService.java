@@ -117,7 +117,7 @@ public class CommunityService {
 
     public UserCommunity findCommunityUserByGameIdFallback(Long gameId) {
         UserCommunity userLibrary = new UserCommunity(0L, new ArrayList<>());
-        User user = new User(0L, "User-service not available", 0.0);
+        User user = new User(0L, "Service not available", "Service not available", "Service not available", 0.0);
         userLibrary.setGameId(0L);
         userLibrary.getUsers().add(user);
         LogRequest(1L, "GET", "Not found library");

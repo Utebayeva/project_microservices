@@ -11,5 +11,7 @@ import lombok.NoArgsConstructor;
 public class User {
 
     private String nickname;
+    private String password;
+    private String email;
     private Double wallet;
 }

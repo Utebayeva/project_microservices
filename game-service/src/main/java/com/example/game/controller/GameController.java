@@ -1,17 +1,17 @@
 package com.example.game.controller;
 
+import com.example.game.entity.DTO.GamesArrayList;
 import com.example.game.entity.Game;
 import com.example.game.service.GameService;
-import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
 @RestController
 @RequestMapping("/games")
-@Slf4j
 public class GameController {
 
     @Autowired
@@ -40,5 +40,12 @@ public class GameController {
     @DeleteMapping("/{id}")
     public void deleteGame(@PathVariable("id") Long gameId) {
         gameService.deleteGame(gameId);
+    }
+
+    @GetMapping("/gamesArrayList")
+    public GamesArrayList GetGamesDto() {
+        ArrayList<Game> games = (ArrayList<Game>) gameService.findAllGames();
+        GamesArrayList gamesArrayList = new GamesArrayList(games);
+        return gamesArrayList;
     }
 }

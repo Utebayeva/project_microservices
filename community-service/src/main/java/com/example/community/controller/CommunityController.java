@@ -1,11 +1,13 @@
 package com.example.community.controller;
 
 import com.example.community.entity.Community;
+import com.example.community.entity.DTO.CommunitiesArrayList;
 import com.example.community.entity.DTO.UserCommunity;
 import com.example.community.service.CommunityService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.ArrayList;
 import java.util.List;
 
 @RestController
@@ -48,5 +50,12 @@ public class CommunityController {
     @GetMapping("/findCommunityUsersByGameId/{id}")
     public UserCommunity findCommunityUsersByGameId(@PathVariable("id") Long gameId) {
         return communityService.findCommunityUsersByGameId(gameId);
+    }
+
+    @GetMapping("/communitiesArrayList")
+    public CommunitiesArrayList GetCommunitiesDto() {
+        ArrayList<Community> communities = (ArrayList<Community>) communityService.findAllCommunities();
+        CommunitiesArrayList communitiesArrayList = new CommunitiesArrayList(communities);
+        return communitiesArrayList;
     }
 }

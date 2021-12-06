@@ -1,11 +1,13 @@
 package com.example.library.controller;
 
+import com.example.library.entity.DTO.LibrariesArrayList;
 import com.example.library.entity.DTO.UserLibrary;
 import com.example.library.entity.Library;
 import com.example.library.service.LibraryService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.ArrayList;
 import java.util.List;
 
 @RestController
@@ -48,5 +50,12 @@ public class LibraryController {
     @GetMapping("/getUserLibraryById/{id}")
     public UserLibrary findLibraryGamesByUserId(@PathVariable("id") Long userId) {
         return libraryService.findLibraryGamesByUserId(userId);
+    }
+
+    @GetMapping("/librariesArrayList")
+    public LibrariesArrayList GetLogsDto() {
+        ArrayList<Library> libraries = (ArrayList<Library>) libraryService.findAllLibraries();
+        LibrariesArrayList librariesArrayList = new LibrariesArrayList(libraries);
+        return librariesArrayList;
     }
 }

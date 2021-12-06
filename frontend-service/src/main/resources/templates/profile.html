@@ -1,0 +1,19 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+    <head>
+        <title th:text="${#session.getAttribute('nickname')}"></title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+              integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    </head>
+    <body class="p-3 mb-2 bg-dark text-white">
+        <h1>Profile</h1>
+        <h3 class="text-danger" th:text="${#session.getAttribute('nickname')}"></h3>
+        <h4><a href="/store/home">Home</a></h4>
+        <h4><a href="/store/logout">Logout</a></h4>
+        <br>
+        <h3 class="text-white">Info:</h3>
+        <h3 class="text-danger" th:text="${#session.getAttribute('userId')}"></h3>
+        <h3 class="text-danger" th:text="${#session.getAttribute('email')}"></h3>
+        <h3 class="text-danger" th:text="${#session.getAttribute('wallet')}"></h3>
+    </body>
+</html>

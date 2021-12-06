@@ -1,0 +1,118 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+    <head>
+        <title>Admin Page</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+              integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    </head>
+    <body class="p-3 mb-2 bg-dark text-white">
+        <h1>Admin</h1>
+        <h4><a href="/store/home">Home</a></h4>
+        <h4><a href="/store/createGame">Add game to store</a></h4>
+        <h4><a href="/store/logout">Logout</a></h4>
+        <br>
+        <h3>Logs</h3>
+        <table class="table table-dark table-hover">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>USER_ID</th>
+                    <th>ACTION</th>
+                    <th>DESCRIPTION</th>
+                    <th>SERVICE</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr th:each="log:${logs}">
+                    <td th:text="${log.getLogId}"></td>
+                    <td th:text="${log.getUserId}"></td>
+                    <td th:text="${log.getAction}"></td>
+                    <td th:text="${log.getDescription}"></td>
+                    <td th:text="${log.getService}"></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <br>
+        <h3>Users</h3>
+        <table class="table table-dark table-hover">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>NICKNAME</th>
+                    <th>WALLET</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr th:each="user:${users}">
+                    <td th:text="${user.getUserId}"></td>
+                    <td th:text="${user.getNickname}"></td>
+                    <td th:text="${user.getWallet}"></td>
+                    <td>
+                        <form th:action="@{/store/deleteUser}" method="post">
+                            <input type="hidden" name="id" th:value="${user.getUserId}">
+                            <input type="submit" value="Delete" class="btn btn-danger">
+                        </form>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <br>
+        <h3>Games</h3>
+        <table class="table table-dark table-hover">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>TITLE</th>
+                    <th>DESCRIPTION</th>
+                    <th>PRICE</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr th:each="game:${games}">
+                    <td th:text="${game.getGameId}"></td>
+                    <td th:text="${game.getTitle}"></td>
+                    <td th:text="${game.getDescription}"></td>
+                    <td th:text="${game.getPrice}"></td>
+                    <td>
+                        <form th:action="@{/store/deleteGame}" method="post">
+                            <input type="hidden" name="id" th:value="${game.getGameId}">
+                            <input type="submit" value="Delete" class="btn btn-danger">
+                        </form>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <br>
+        <h3>Communities</h3>
+        <table class="table table-dark table-hover">
+            <thead>
+            <tr>
+                <th>ID</th>
+                <th>GAME_ID</th>
+                <th>NAME</th>
+                <th>DESCRIPTION</th>
+                <th></th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr th:each="community:${communities}">
+                <td th:text="${community.getCommunityId}"></td>
+                <td th:text="${community.getGameId}"></td>
+                <td th:text="${community.getName}"></td>
+                <td th:text="${community.getDescription}"></td>
+                <td>
+                    <form th:action="@{/store/deleteCommunity}" method="post">
+                        <input type="hidden" name="id" th:value="${community.getCommunityId}">
+                        <input type="submit" value="Delete" class="btn btn-danger">
+                    </form>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+    </body>
+</html>
