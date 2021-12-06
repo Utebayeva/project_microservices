@@ -14,9 +14,9 @@ Our project is a regular online game store selling keys for games in steam, epic
 ### Karina:
   1) Community-service
   2) Game-service
-  3) Logging-service
 ### Alisher:
-  4) User-service
+  3) User-service
+  4) Logging-service
   5) Library-service
  
 ## Microservices's diagram:
