@@ -1,11 +1,9 @@
 package com.example.frontendservice.controller;
 
 import com.example.frontendservice.entity.Community;
-import com.example.frontendservice.entity.DTO.CommunitiesArrayList;
-import com.example.frontendservice.entity.DTO.GamesArrayList;
-import com.example.frontendservice.entity.DTO.LogsArrayList;
-import com.example.frontendservice.entity.DTO.UsersArrayList;
+import com.example.frontendservice.entity.DTO.*;
 import com.example.frontendservice.entity.Game;
+import com.example.frontendservice.entity.Library;
 import com.example.frontendservice.entity.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpEntity;
@@ -100,7 +98,9 @@ public class MainController {
     }
 
     @GetMapping("/profile")
-    public String profile() {
+    public String profile(Model model) {
+        GamesArrayList gamesArrayList = restTemplate.getForObject("http://zuul-service/games/gamesArrayList", GamesArrayList.class);
+        model.addAttribute("games", gamesArrayList.getGames());
         return "profile";
     }
 

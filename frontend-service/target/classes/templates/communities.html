@@ -2,74 +2,143 @@
 <html xmlns:th="http://www.thymeleaf.org" lang="en">
     <head>
         <title>Game Store</title>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
         <style>
-            .footer-basic {
-                padding:40px 0;
-                background-color:#ffffff;
-                color:#4b4c4d;
+            .footer {
+                margin-top:40px;
+                position:relative
             }
 
-            .footer-basic ul {
-                padding:0;
-                list-style:none;
+            .footer .container {
+                padding:60px 0 20px;
+            }
+
+            .footer ul {
+                margin:0 auto;
+                margin-bottom:30px;
+                margin-top:10px;
                 text-align:center;
-                font-size:18px;
-                line-height:1.6;
-                margin-bottom:0;
+                list-style-type:none;
+                padding-left:0;
             }
 
-            .footer-basic li {
-                padding:0 10px;
-            }
-
-            .footer-basic ul a {
-                color:inherit;
-                text-decoration:none;
-                opacity:0.8;
-            }
-
-            .footer-basic ul a:hover {
-                opacity:1;
-            }
-
-            .footer-basic .social {
+            .footer ul li {
                 text-align:center;
-                padding-bottom:25px;
-            }
-
-            .footer-basic .social > a {
-                font-size:24px;
-                width:40px;
-                height:40px;
-                line-height:40px;
                 display:inline-block;
-                text-align:center;
-                border-radius:50%;
-                border:1px solid #ccc;
-                margin:0 8px;
-                color:inherit;
-                opacity:0.75;
+                background:rgba(0,0,0,0.2);
+                color:#fff;
+                line-height:45px;
+                margin:0 4px;
+                width:45px!important;
+                height:45px!important;
+                -webkit-border-radius:3px;
+                border-radius:3px;
             }
 
-            .footer-basic .social > a:hover {
-                opacity:0.9;
+            .footer ul li:hover{
+                background: #0580ec;
             }
 
-            .footer-basic .copyright {
-                margin-top:15px;
+            .footer ul li:hover	a {
+                color: #073fa0;
+            }
+
+            .footer ul li a {
+                color:#fff;
+                width:42px!important;
+                height:42px!important;
+            }
+
+            .footer ul li a i {
+                line-height:45px;
+                color:#fff;
+            }
+
+            .footer p {
+                color:#fff;
+                font-size:.9em;
+                line-height:24px;
+                font-weight:300;
                 text-align:center;
-                font-size:13px;
-                color:#aaa;
-                margin-bottom:0;
+                text-transform:uppercase;
+            }
+
+            #footer a,#footer a:hover {
+                color: #0aa6ec;
+            }
+
+            .container td {
+                color: #005eff;
+                font-weight: normal;
+                font-size: 1em;
+                -webkit-box-shadow: 0 2px 2px -2px #0E1119;
+                -moz-box-shadow: 0 2px 2px -2px #0E1119;
+                box-shadow: 0 2px 2px -2px #0E1119;
+            }
+
+            .container {
+                text-align: left;
+                overflow: hidden;
+                width: 80%;
+                margin: 0 auto;
+                display: table;
+                padding: 0 0 8em 0;
+            }
+
+            .container td, .container th {
+                padding-bottom: 2%;
+                padding-top: 2%;
+                padding-left:2%;
+            }
+
+            /* Background-color of the odd rows */
+            .container tr:nth-child(odd) {
+                background-color: #323C50;
+            }
+
+            /* Background-color of the even rows */
+            .container tr:nth-child(even) {
+                background-color: #2C3446;
+            }
+
+            .container th {
+                color: white;
+                background-color: #1f2839;
+            }
+
+            .container td:first-child { color: #0aa6ec; }
+
+            .container tr:hover {
+                background-color: #464A52;
+                -webkit-box-shadow: 0 6px 6px -6px #0E1119;
+                -moz-box-shadow: 0 6px 6px -6px #0E1119;
+                box-shadow: 0 6px 6px -6px #0E1119;
+            }
+
+            .container td:hover {
+                background-color: #6c12cf;
+                color: #371040;
+                font-weight: bold;
+
+                box-shadow: #58217f -1px 1px, #58217f -2px 2px, #58217f -3px 3px, #58217f -4px 4px, #58217f -5px 5px, #58217f -6px 6px;
+                transform: translate3d(6px, -6px, 0);
+
+                transition-delay: 0s;
+                transition-duration: 0.4s;
+                transition-property: all;
+                transition-timing-function: line;
+            }
+
+            @media (max-width: 800px) {
+                .container td:nth-child(4),
+                .container th:nth-child(4) { display: none; }
             }
         </style>
     </head>
-    <body>
-        <div>
-            <nav class="nav d-flex justify-content-center bg-dark">
+    <body style="background-image:url('https://wallpaperaccess.com/full/306739.jpg');">
+        <div style="background-color: #3d067c">
+            <nav class="nav d-flex justify-content-center">
                 <a class="nav-link" href="/store/home">Home</a>
                 <a class="nav-link" href="/store/communities">Communities</a>
                 <a class="nav-link" href="/store/profile">Profile</a>
@@ -77,9 +146,10 @@
             </nav>
         </div>
 
+        <br><br><br>
+        <h3 style="text-align: center"><a href="/store/createCommunity">Create Community</a></h3>
         <div>
-            <h3>Communities</h3>
-            <table class="table table-hover">
+            <table class="container">
                 <thead>
                     <tr>
                         <th>NAME</th>
@@ -95,16 +165,23 @@
             </table>
         </div>
 
-        <div class="footer-basic">
-            <footer>
-                <div class="social"><a href="#"><i class="icon ion-social-instagram"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-facebook"></i></a></div>
-                <ul class="list-inline">
-                    <li class="list-inline-item"><a href="/store/home">Home</a></li>
-                    <li class="list-inline-item"><a href="/store/communities">Communities</a></li>
-                    <li class="list-inline-item"><a href="/store/profile">Profile</a></li>
-                </ul>
-                <p class="copyright">Game Store © 2021</p>
-            </footer>
-        </div>
+        <br><br><br>
+        <section class="footer" id="footer" style="background-color: #3d067c">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <p><strong>Game Store © 2021</strong><br></p>
+                        <ul>
+                            <li><a href="https://www.instagram.com"><i class="bi bi-instagram"></i></a></li>
+                            <li><a href="https://web.telegram.org"><i class="bi bi-telegram"></i></a></li>
+                            <li><a href="http://facebook.com"><i class="bi bi-facebook"></i></a></li>
+                            <li><a href="http://whatsapp.com"><i class="bi bi-whatsapp"></i></a></li>
+                            <li><a href="https://www.twitch.tv"><i class="bi bi-twitch"></i></a></li>
+                            <li><a href="https://www.youtube.com"><i class="bi bi-youtube"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
     </body>
 </html>
