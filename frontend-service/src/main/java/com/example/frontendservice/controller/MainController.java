@@ -24,7 +24,9 @@ public class MainController {
     private RestTemplate restTemplate;
 
     @GetMapping("")
-    public String index() {
+    public String index(Model model) {
+        GamesArrayList gamesArrayList = restTemplate.getForObject("http://zuul-service/games/gamesArrayList", GamesArrayList.class);
+        model.addAttribute("games", gamesArrayList.getGames());
         return "index";
     }
 
@@ -140,7 +142,7 @@ public class MainController {
     public String signUp(User user) {
         HttpEntity<User> request = new HttpEntity<>(user);
         restTemplate.postForObject("http://zuul-service/users/saveUser", request, User.class);
-        return "redirect:/store";
+        return "redirect:/store/signinPage";
     }
 
     @GetMapping("/logout")
